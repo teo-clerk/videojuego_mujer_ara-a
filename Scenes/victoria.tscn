@@ -44,7 +44,7 @@ vertical = true
 
 [node name="TryAgain" type="Button" parent="BoxContainer"]
 layout_mode = 2
-text = "TORNA A INTENTAR-HO"
+text = "VUELVE A INTENTARLO"
 
 [node name="Menu" type="Button" parent="BoxContainer"]
 layout_mode = 2
@@ -52,11 +52,11 @@ text = "MENÚ"
 
 [node name="Exit" type="Button" parent="BoxContainer"]
 layout_mode = 2
-text = "SORTIR"
+text = "SALIR"
 
 [node name="Accent" type="Sprite2D" parent="."]
-position = Vector2(497, 86)
-rotation = 0.699877
+position = Vector2(508.43, 86)
+rotation = -0.616101
 scale = Vector2(0.159864, 0.149351)
 texture = ExtResource("3_4ixcr")
 

@@ -18,13 +18,13 @@
 [ext_resource type="Texture2D" uid="uid://5406w1vlpvcd" path="res://Resources/cerradura.png" id="16_kqwxw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6iotg"]
-size = Vector2(127.5, 46)
+size = Vector2(114, 46)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yemc7"]
-size = Vector2(135, 45)
+size = Vector2(123, 45)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jkj7e"]
-size = Vector2(134.5, 46)
+size = Vector2(121, 46)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_30fc7"]
 size = Vector2(136, 47)
@@ -47,10 +47,10 @@ offset_bottom = 176.0
 theme_override_fonts/normal_font = ExtResource("6_vi56d")
 theme_override_font_sizes/normal_font_size = 90
 bbcode_enabled = true
-text = "[center]N VELLS[/center]"
+text = "[center]N VELES[/center]"
 
 [node name="MonedaNormal" parent="." instance=ExtResource("7_806bb")]
-position = Vector2(381, 90)
+position = Vector2(383, 87)
 rotation = 2.27067
 scale = Vector2(2.5, 2.5)
 
@@ -82,42 +82,42 @@ theme_override_constants/separation = 200
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_vi56d")
 theme_override_font_sizes/font_size = 35
-text = "NIVELL 1"
+text = "NIVEL 1"
 script = ExtResource("8_dji4u")
 escena = ExtResource("9_jntif")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Nivell1"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Nivell1/StaticBody2D"]
-position = Vector2(63.75, 23)
+position = Vector2(57, 23)
 shape = SubResource("RectangleShape2D_6iotg")
 
 [node name="Nivell2" type="Button" parent="Butons/HBoxContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_vi56d")
 theme_override_font_sizes/font_size = 35
-text = "NIVELL 2"
+text = "NIVEL 2"
 script = ExtResource("9_4suh0")
 escena = ExtResource("10_bnwcw")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Nivell2"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Nivell2/StaticBody2D"]
-position = Vector2(67.5, 22.5)
+position = Vector2(61.5, 22.5)
 shape = SubResource("RectangleShape2D_yemc7")
 
 [node name="Nivell3" type="Button" parent="Butons/HBoxContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_vi56d")
 theme_override_font_sizes/font_size = 35
-text = "NIVELL 3"
+text = "NIVEL 3"
 script = ExtResource("10_7f5kp")
 escena = ExtResource("12_ttaqq")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Nivell3"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Nivell3/StaticBody2D"]
-position = Vector2(67.25, 23)
+position = Vector2(60.5, 23)
 shape = SubResource("RectangleShape2D_jkj7e")
 
 [node name="TornarAlMenú" type="Button" parent="Butons"]
@@ -135,7 +135,7 @@ grow_horizontal = 2
 grow_vertical = 0
 theme_override_fonts/font = ExtResource("6_vi56d")
 theme_override_font_sizes/font_size = 35
-text = "TORNAR"
+text = "VOLVER"
 script = ExtResource("11_mwhfi")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Butons/TornarAlMenú"]
@@ -158,12 +158,12 @@ scale = Vector2(0.107422, 0.107422)
 texture = ExtResource("16_kqwxw")
 
 [node name="Cerradura2" type="Sprite2D" parent="Cerradura"]
-position = Vector2(576, 288)
+position = Vector2(562, 290)
 scale = Vector2(0.107422, 0.107422)
 texture = ExtResource("16_kqwxw")
 
 [node name="Cerradura3" type="Sprite2D" parent="Cerradura"]
-position = Vector2(912, 288)
+position = Vector2(881, 288)
 scale = Vector2(0.107422, 0.107422)
 texture = ExtResource("16_kqwxw")
 

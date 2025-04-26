@@ -8,4 +8,3 @@ func _ready():
 	Global.claus = 0
 	Global.monedes = 0
 	Global.pollastres_necessaris = 6
-

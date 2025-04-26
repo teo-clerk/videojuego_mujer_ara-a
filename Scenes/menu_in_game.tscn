@@ -44,7 +44,7 @@ text = "Menú"
 
 [node name="Sortir" type="Button" parent="BoxContainer"]
 layout_mode = 2
-text = "Sortir"
+text = "Salir"
 
 [connection signal="pressed" from="BoxContainer/Continuar" to="." method="_on_continuar_pressed"]
 [connection signal="pressed" from="BoxContainer/Menú" to="." method="_on_menú_pressed"]

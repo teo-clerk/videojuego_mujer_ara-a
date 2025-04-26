@@ -21,10 +21,10 @@ size = Vector2(118, 47)
 size = Vector2(136, 46)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_j2m6e"]
-size = Vector2(101, 47)
+size = Vector2(88, 47)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n0w7q"]
-size = Vector2(115, 44)
+size = Vector2(134.5, 44)
 
 [node name="Interfaz" type="Node"]
 
@@ -79,7 +79,7 @@ theme_override_constants/separation = 150
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_hlpc5")
 theme_override_font_sizes/font_size = 35
-text = "NIVELLS"
+text = "NIVELES"
 script = ExtResource("8_q71vc")
 escena = ExtResource("9_s0qvl")
 
@@ -107,26 +107,26 @@ shape = SubResource("RectangleShape2D_b4nk3")
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_hlpc5")
 theme_override_font_sizes/font_size = 35
-text = "SORTIR"
+text = "SALIR"
 script = ExtResource("10_dyymi")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Sortir"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Sortir/StaticBody2D"]
-position = Vector2(50.5, 22.5)
+position = Vector2(44, 22.5)
 shape = SubResource("RectangleShape2D_j2m6e")
 
 [node name="Opciones" type="Button" parent="Butons/HBoxContainer"]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_hlpc5")
 theme_override_font_sizes/font_size = 35
-text = "OPCIONS"
+text = "OPCIONES"
 script = ExtResource("13_1rj5a")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Opciones"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Opciones/StaticBody2D"]
-position = Vector2(60, 23)
+position = Vector2(69.75, 23)
 shape = SubResource("RectangleShape2D_n0w7q")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]

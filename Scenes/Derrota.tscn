@@ -42,7 +42,7 @@ vertical = true
 
 [node name="TornarAIntentar" type="Button" parent="BoxContainer"]
 layout_mode = 2
-text = "TORNA A INTENTAR-HO"
+text = "VUELVE A INTENTARLO"
 
 [node name="Menu" type="Button" parent="BoxContainer"]
 layout_mode = 2

@@ -18,12 +18,13 @@ offset_right = 547.0
 offset_bottom = 234.0
 theme_override_fonts/font = ExtResource("2_4uaky")
 theme_override_font_sizes/font_size = 25
-text = "Creadors: Marc Perez, Teo Clerici, Jan Ferrer
+text = "Creadores:  TEO CLERICI, JAN MORALES, ARAN ESTERA
+
+películas: Cat People (1942), Paris Underground (1945),
+ The Enchanted Cottage (1945), Walked with a Zombie (1943).
 
 Tile Map: https://anokolisa.itch.io/sidescroller-shooter-central-city
-
 Background: Ansimuz https://www.youtube.com/@ansimuz
-
 Música: Panda Beats - https://www.youtube.com/@PandaBeatsMusic
 "
 
@@ -32,6 +33,6 @@ offset_left = 53.0
 offset_top = 447.0
 offset_right = 177.0
 offset_bottom = 494.0
-text = "Tornar"
+text = "Volver"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

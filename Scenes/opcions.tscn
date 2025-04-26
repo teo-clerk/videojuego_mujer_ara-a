@@ -525,7 +525,7 @@ radius = 8.0
 height = 32.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pmjjk"]
-size = Vector2(118, 47)
+size = Vector2(140, 47)
 
 [node name="Opcions" type="Control"]
 layout_mode = 3
@@ -560,10 +560,10 @@ offset_bottom = 188.0
 theme_override_fonts/normal_font = ExtResource("6_pa1o1")
 theme_override_font_sizes/normal_font_size = 90
 bbcode_enabled = true
-text = "[center]OPC ONS[/center]"
+text = "[center]OPC ONES[/center]"
 
 [node name="MonedaNormal" parent="." instance=ExtResource("7_enldd")]
-position = Vector2(471, 97)
+position = Vector2(453, 99)
 rotation = 2.27067
 scale = Vector2(2.5, 2.5)
 
@@ -594,7 +594,7 @@ grow_horizontal = 2
 grow_vertical = 0
 theme_override_fonts/font = ExtResource("6_pa1o1")
 theme_override_font_sizes/font_size = 35
-text = "TORNAR"
+text = "VOLVER"
 script = ExtResource("8_2ea1a")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Butons/TornarAlMenú"]
@@ -636,13 +636,13 @@ shape = SubResource("CapsuleShape2D_a848x")
 layout_mode = 2
 theme_override_fonts/font = ExtResource("6_pa1o1")
 theme_override_font_sizes/font_size = 35
-text = "CREDITS"
+text = "CREDITOS"
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Button"]
 position = Vector2(-274, -235)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Button/StaticBody2D"]
-position = Vector2(333, 258.5)
+position = Vector2(344, 258.5)
 shape = SubResource("RectangleShape2D_pmjjk")
 
 [node name="MUSI_ACC" type="Line2D" parent="Butons"]
@@ -651,7 +651,8 @@ points = PackedVector2Array(327, 136, 334, 127)
 width = 4.0
 
 [node name="CRE_ACC" type="Line2D" parent="Butons"]
-position = Vector2(8.985, 0)
+position = Vector2(477, 733)
+rotation = -1.55683
 points = PackedVector2Array(611, 134, 602, 126)
 width = 4.0
 
