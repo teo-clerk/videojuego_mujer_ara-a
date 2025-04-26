@@ -1,0 +1,175 @@
+[gd_scene load_steps=21 format=3 uid="uid://cthuvcfjfix53"]
+
+[ext_resource type="Texture2D" uid="uid://bfbsnux3naqaw" path="res://Resources/Base Color.png" id="1_8amn2"]
+[ext_resource type="PackedScene" uid="uid://bwppkoqx0wytc" path="res://Scenes/jugador.tscn" id="5_e8d2k"]
+[ext_resource type="FontFile" uid="uid://dfjgmo3enloc1" path="res://Fonts/8-bit-limit/8bitlimr.ttf" id="6_vi56d"]
+[ext_resource type="PackedScene" uid="uid://bvoxyc8e4k3y5" path="res://Scenes/moneda_normal.tscn" id="7_806bb"]
+[ext_resource type="Script" uid="uid://6805mh1acojm" path="res://Scripts/Nivell1.gd" id="8_dji4u"]
+[ext_resource type="Script" uid="uid://bw8344fv0rfan" path="res://Scripts/Nivell2.gd" id="9_4suh0"]
+[ext_resource type="PackedScene" uid="uid://di6pk5fs4p4ci" path="res://Scenes/mapa0.tscn" id="9_jntif"]
+[ext_resource type="Script" uid="uid://ddrba357k77qr" path="res://Scripts/Nivell3.gd" id="10_7f5kp"]
+[ext_resource type="PackedScene" uid="uid://pwuok1fnhkix" path="res://Scenes/mapa_1.tscn" id="10_bnwcw"]
+[ext_resource type="Script" uid="uid://bw6l75lps8wc8" path="res://Scripts/TornarAlMenú.gd" id="11_mwhfi"]
+[ext_resource type="PackedScene" uid="uid://b14yhr8ofc81" path="res://Scenes/mapa_2.tscn" id="12_ttaqq"]
+[ext_resource type="Script" uid="uid://bo212ysrlb7lf" path="res://Scenes/Muisca.gd" id="13_c0wja"]
+[ext_resource type="AudioStream" uid="uid://csiremfy62jr1" path="res://Resources/Musica/Sport Cyberpunk G-House by Infraction [No Copyright Music] - Shock Absorber (320).mp3" id="15_pr0gi"]
+[ext_resource type="PackedScene" uid="uid://bsg15765evsys" path="res://Scenes/tilemap_defect_menus.tscn" id="16_847ho"]
+[ext_resource type="Script" uid="uid://cpxtlnwhkv81i" path="res://Scripts/Cerradura.gd" id="16_a4xle"]
+[ext_resource type="Texture2D" uid="uid://5406w1vlpvcd" path="res://Resources/cerradura.png" id="16_kqwxw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6iotg"]
+size = Vector2(127.5, 46)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yemc7"]
+size = Vector2(135, 45)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jkj7e"]
+size = Vector2(134.5, 46)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_30fc7"]
+size = Vector2(136, 47)
+
+[node name="Nivells" type="Node"]
+
+[node name="BaseColor" type="Sprite2D" parent="."]
+position = Vector2(482, 273.5)
+scale = Vector2(2.025, 1.70313)
+texture = ExtResource("1_8amn2")
+
+[node name="Jugador" parent="." instance=ExtResource("5_e8d2k")]
+position = Vector2(44, 52)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+custom_minimum_size = Vector2(0, 50)
+offset_top = 48.0
+offset_right = 960.0
+offset_bottom = 176.0
+theme_override_fonts/normal_font = ExtResource("6_vi56d")
+theme_override_font_sizes/normal_font_size = 90
+bbcode_enabled = true
+text = "[center]N VELLS[/center]"
+
+[node name="MonedaNormal" parent="." instance=ExtResource("7_806bb")]
+position = Vector2(381, 90)
+rotation = 2.27067
+scale = Vector2(2.5, 2.5)
+
+[node name="Butons" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 96.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Butons"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -377.0
+offset_top = -53.0
+offset_right = 377.0
+offset_bottom = -7.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 200
+
+[node name="Nivell1" type="Button" parent="Butons/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_vi56d")
+theme_override_font_sizes/font_size = 35
+text = "NIVELL 1"
+script = ExtResource("8_dji4u")
+escena = ExtResource("9_jntif")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Nivell1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Nivell1/StaticBody2D"]
+position = Vector2(63.75, 23)
+shape = SubResource("RectangleShape2D_6iotg")
+
+[node name="Nivell2" type="Button" parent="Butons/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_vi56d")
+theme_override_font_sizes/font_size = 35
+text = "NIVELL 2"
+script = ExtResource("9_4suh0")
+escena = ExtResource("10_bnwcw")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Nivell2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Nivell2/StaticBody2D"]
+position = Vector2(67.5, 22.5)
+shape = SubResource("RectangleShape2D_yemc7")
+
+[node name="Nivell3" type="Button" parent="Butons/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_vi56d")
+theme_override_font_sizes/font_size = 35
+text = "NIVELL 3"
+script = ExtResource("10_7f5kp")
+escena = ExtResource("12_ttaqq")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Nivell3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Nivell3/StaticBody2D"]
+position = Vector2(67.25, 23)
+shape = SubResource("RectangleShape2D_jkj7e")
+
+[node name="TornarAlMenú" type="Button" parent="Butons"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -72.0
+offset_top = -163.0
+offset_right = 64.0
+offset_bottom = -117.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("6_vi56d")
+theme_override_font_sizes/font_size = 35
+text = "TORNAR"
+script = ExtResource("11_mwhfi")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Butons/TornarAlMenú"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/TornarAlMenú/StaticBody2D"]
+position = Vector2(68, 22.5)
+shape = SubResource("RectangleShape2D_30fc7")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15_pr0gi")
+volume_db = 7.913
+script = ExtResource("13_c0wja")
+
+[node name="Cerradura" type="Node" parent="."]
+script = ExtResource("16_a4xle")
+
+[node name="Cerradura" type="Sprite2D" parent="Cerradura"]
+position = Vector2(240, 288)
+scale = Vector2(0.107422, 0.107422)
+texture = ExtResource("16_kqwxw")
+
+[node name="Cerradura2" type="Sprite2D" parent="Cerradura"]
+position = Vector2(576, 288)
+scale = Vector2(0.107422, 0.107422)
+texture = ExtResource("16_kqwxw")
+
+[node name="Cerradura3" type="Sprite2D" parent="Cerradura"]
+position = Vector2(912, 288)
+scale = Vector2(0.107422, 0.107422)
+texture = ExtResource("16_kqwxw")
+
+[node name="TileMap" parent="." instance=ExtResource("16_847ho")]
+
+[connection signal="pressed" from="Butons/HBoxContainer/Nivell1" to="Butons/HBoxContainer/Nivell1" method="_on_pressed"]
+[connection signal="pressed" from="Butons/HBoxContainer/Nivell2" to="Butons/HBoxContainer/Nivell2" method="_on_pressed"]
+[connection signal="pressed" from="Butons/HBoxContainer/Nivell3" to="Butons/HBoxContainer/Nivell3" method="_on_pressed"]
+[connection signal="pressed" from="Butons/TornarAlMenú" to="Butons/TornarAlMenú" method="_on_pressed"]

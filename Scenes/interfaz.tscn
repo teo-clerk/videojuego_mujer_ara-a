@@ -1,0 +1,142 @@
+[gd_scene load_steps=18 format=3 uid="uid://dckl2ky5y7pv0"]
+
+[ext_resource type="Texture2D" uid="uid://bfbsnux3naqaw" path="res://Resources/Base Color.png" id="1_fl36l"]
+[ext_resource type="PackedScene" uid="uid://bwppkoqx0wytc" path="res://Scenes/jugador.tscn" id="5_21e4p"]
+[ext_resource type="FontFile" uid="uid://dfjgmo3enloc1" path="res://Fonts/8-bit-limit/8bitlimr.ttf" id="6_hlpc5"]
+[ext_resource type="PackedScene" uid="uid://bvoxyc8e4k3y5" path="res://Scenes/moneda_normal.tscn" id="7_eo1oh"]
+[ext_resource type="Script" uid="uid://dbukssdo4nit0" path="res://Scripts/Nivells.gd" id="8_q71vc"]
+[ext_resource type="Script" uid="uid://7ggnp1bjik82" path="res://Scripts/Tutorial.gd" id="9_nix3k"]
+[ext_resource type="PackedScene" uid="uid://cthuvcfjfix53" path="res://Scenes/nivells.tscn" id="9_s0qvl"]
+[ext_resource type="Script" uid="uid://bgsg6xcttqt3s" path="res://Scripts/Sortir.gd" id="10_dyymi"]
+[ext_resource type="PackedScene" uid="uid://ccjrpgi7gsych" path="res://Scenes/mapa_prueba.tscn" id="11_5m6p6"]
+[ext_resource type="Script" uid="uid://ckh1f5rcf1qsn" path="res://Scenes/Opciones.gd" id="13_1rj5a"]
+[ext_resource type="PackedScene" uid="uid://bsg15765evsys" path="res://Scenes/tilemap_defect_menus.tscn" id="13_bng83"]
+[ext_resource type="AudioStream" uid="uid://csiremfy62jr1" path="res://Resources/Musica/Sport Cyberpunk G-House by Infraction [No Copyright Music] - Shock Absorber (320).mp3" id="13_xfeov"]
+[ext_resource type="Script" uid="uid://bo212ysrlb7lf" path="res://Scenes/Muisca.gd" id="15_rslox"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hl54v"]
+size = Vector2(118, 47)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b4nk3"]
+size = Vector2(136, 46)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j2m6e"]
+size = Vector2(101, 47)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n0w7q"]
+size = Vector2(115, 44)
+
+[node name="Interfaz" type="Node"]
+
+[node name="BaseColor" type="Sprite2D" parent="."]
+position = Vector2(482, 273.5)
+scale = Vector2(2.025, 1.70313)
+texture = ExtResource("1_fl36l")
+
+[node name="Jugador" parent="." instance=ExtResource("5_21e4p")]
+position = Vector2(46, 60)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+custom_minimum_size = Vector2(0, 50)
+offset_top = 48.0
+offset_right = 960.0
+offset_bottom = 176.0
+theme_override_fonts/normal_font = ExtResource("6_hlpc5")
+theme_override_font_sizes/normal_font_size = 90
+bbcode_enabled = true
+text = "[center]CH CKHEAD[/center]"
+
+[node name="MonedaNormal" parent="." instance=ExtResource("7_eo1oh")]
+position = Vector2(381, 90)
+rotation = 2.27067
+scale = Vector2(2.5, 2.5)
+
+[node name="Butons" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 96.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Butons"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -461.0
+offset_top = -72.0
+offset_right = 461.0
+offset_bottom = -26.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 150
+
+[node name="Nivells" type="Button" parent="Butons/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_hlpc5")
+theme_override_font_sizes/font_size = 35
+text = "NIVELLS"
+script = ExtResource("8_q71vc")
+escena = ExtResource("9_s0qvl")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Nivells"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Nivells/StaticBody2D"]
+position = Vector2(59, 22.5)
+shape = SubResource("RectangleShape2D_hl54v")
+
+[node name="Tutorial" type="Button" parent="Butons/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_hlpc5")
+theme_override_font_sizes/font_size = 35
+text = "TUTORIAL"
+script = ExtResource("9_nix3k")
+escena = ExtResource("11_5m6p6")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Tutorial"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Tutorial/StaticBody2D"]
+position = Vector2(68, 23)
+shape = SubResource("RectangleShape2D_b4nk3")
+
+[node name="Sortir" type="Button" parent="Butons/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_hlpc5")
+theme_override_font_sizes/font_size = 35
+text = "SORTIR"
+script = ExtResource("10_dyymi")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Sortir"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Sortir/StaticBody2D"]
+position = Vector2(50.5, 22.5)
+shape = SubResource("RectangleShape2D_j2m6e")
+
+[node name="Opciones" type="Button" parent="Butons/HBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("6_hlpc5")
+theme_override_font_sizes/font_size = 35
+text = "OPCIONS"
+script = ExtResource("13_1rj5a")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Opciones"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Opciones/StaticBody2D"]
+position = Vector2(60, 23)
+shape = SubResource("RectangleShape2D_n0w7q")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("13_xfeov")
+volume_db = 7.913
+script = ExtResource("15_rslox")
+
+[node name="TileMap" parent="." instance=ExtResource("13_bng83")]
+
+[connection signal="pressed" from="Butons/HBoxContainer/Nivells" to="Butons/HBoxContainer/Nivells" method="_on_pressed"]
+[connection signal="pressed" from="Butons/HBoxContainer/Tutorial" to="Butons/HBoxContainer/Tutorial" method="_on_pressed"]
+[connection signal="pressed" from="Butons/HBoxContainer/Sortir" to="Butons/HBoxContainer/Sortir" method="_on_pressed"]
+[connection signal="pressed" from="Butons/HBoxContainer/Opciones" to="Butons/HBoxContainer/Opciones" method="_on_pressed"]
