@@ -1,6 +1,7 @@
-[gd_scene load_steps=18 format=3 uid="uid://dckl2ky5y7pv0"]
+[gd_scene load_steps=19 format=3 uid="uid://dckl2ky5y7pv0"]
 
 [ext_resource type="Texture2D" uid="uid://bfbsnux3naqaw" path="res://Resources/Base Color.png" id="1_fl36l"]
+[ext_resource type="PackedScene" uid="uid://dewvmxi16552v" path="res://Scenes/Player/Player2.tscn" id="3_kn16j"]
 [ext_resource type="PackedScene" uid="uid://bwppkoqx0wytc" path="res://Scenes/jugador.tscn" id="5_21e4p"]
 [ext_resource type="FontFile" uid="uid://dfjgmo3enloc1" path="res://Fonts/8-bit-limit/8bitlimr.ttf" id="6_hlpc5"]
 [ext_resource type="PackedScene" uid="uid://bvoxyc8e4k3y5" path="res://Scenes/moneda_normal.tscn" id="7_eo1oh"]
@@ -36,6 +37,14 @@ texture = ExtResource("1_fl36l")
 [node name="Jugador" parent="." instance=ExtResource("5_21e4p")]
 position = Vector2(46, 60)
 
+[node name="Player2" parent="." instance=ExtResource("3_kn16j")]
+position = Vector2(205, 414)
+
+[node name="MonedaNormal" parent="." instance=ExtResource("7_eo1oh")]
+position = Vector2(381, 90)
+rotation = 2.27067
+scale = Vector2(2.5, 2.5)
+
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 custom_minimum_size = Vector2(0, 50)
 offset_top = 48.0
@@ -45,11 +54,6 @@ theme_override_fonts/normal_font = ExtResource("6_hlpc5")
 theme_override_font_sizes/normal_font_size = 90
 bbcode_enabled = true
 text = "[center]CH CKHEAD[/center]"
-
-[node name="MonedaNormal" parent="." instance=ExtResource("7_eo1oh")]
-position = Vector2(381, 90)
-rotation = 2.27067
-scale = Vector2(2.5, 2.5)
 
 [node name="Butons" type="Control" parent="."]
 layout_mode = 3
@@ -136,6 +140,7 @@ script = ExtResource("15_rslox")
 
 [node name="TileMap" parent="." instance=ExtResource("13_bng83")]
 
+[connection signal="body_shape_entered" from="MonedaNormal" to="MonedaNormal" method="_on_body_shape_entered"]
 [connection signal="pressed" from="Butons/HBoxContainer/Nivells" to="Butons/HBoxContainer/Nivells" method="_on_pressed"]
 [connection signal="pressed" from="Butons/HBoxContainer/Tutorial" to="Butons/HBoxContainer/Tutorial" method="_on_pressed"]
 [connection signal="pressed" from="Butons/HBoxContainer/Sortir" to="Butons/HBoxContainer/Sortir" method="_on_pressed"]

@@ -14,3 +14,8 @@ func _process(delta):
 func _on_body_entered(body):
 	Global.monedes += 1
 	queue_free()
+
+
+func _on_body_shape_entered(body_rid, body, body_shape_index, local_shape_index):
+	Global.monedes += 1
+	queue_free()
