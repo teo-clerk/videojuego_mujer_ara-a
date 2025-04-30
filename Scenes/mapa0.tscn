@@ -701,6 +701,8 @@ sources/2 = SubResource("TileSetAtlasSource_2c2le")
 [node name="mapa0" type="Node2D"]
 script = ExtResource("1_ekkw8")
 
+[node name="Node2D" parent="." instance=ExtResource("6_ukxrf")]
+
 [node name="TileMap" type="TileMap" parent="."]
 scale = Vector2(3, 3)
 tile_set = SubResource("TileSet_4pnm0")
@@ -717,8 +719,6 @@ position = Vector2(5495, 526)
 [node name="Area2D" parent="." instance=ExtResource("5_f7sq7")]
 position = Vector2(240, 387)
 scale = Vector2(2, 2)
-
-[node name="Node2D" parent="." instance=ExtResource("6_ukxrf")]
 
 [node name="Area2D2" parent="." instance=ExtResource("7_wugbm")]
 position = Vector2(1191, 466)
