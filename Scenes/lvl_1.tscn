@@ -1,0 +1,81 @@
+[gd_scene load_steps=8 format=3 uid="uid://bda7owdof311i"]
+
+[ext_resource type="PackedScene" uid="uid://bwppkoqx0wytc" path="res://Scenes/Player/jugador.tscn" id="1_671ag"]
+[ext_resource type="PackedScene" uid="uid://dewvmxi16552v" path="res://Scenes/Player/Player2.tscn" id="2_rf4qq"]
+[ext_resource type="Script" uid="uid://cwpwy83c7kgcr" path="res://Scenes/time.gd" id="3_rf4qq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_olvls"]
+size = Vector2(64, 632)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_md3j3"]
+size = Vector2(994, 56)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_34tpy"]
+size = Vector2(960, 56)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0naw0"]
+size = Vector2(72, 584)
+
+[node name="LVL1" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -64.0
+offset_top = -56.0
+offset_bottom = 576.0
+
+[node name="ColorRect2" type="ColorRect" parent="ColorRect"]
+offset_left = 64.0
+offset_right = 1024.0
+offset_bottom = 56.0
+
+[node name="ColorRect3" type="ColorRect" parent="ColorRect"]
+offset_left = 64.0
+offset_top = 596.0
+offset_right = 1024.0
+offset_bottom = 656.0
+
+[node name="ColorRect" type="ColorRect" parent="ColorRect"]
+offset_left = 1024.0
+offset_top = 8.0
+offset_right = 1088.0
+offset_bottom = 640.0
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-32, 260)
+shape = SubResource("RectangleShape2D_olvls")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(487, -28)
+shape = SubResource("RectangleShape2D_md3j3")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(480, 572)
+shape = SubResource("RectangleShape2D_34tpy")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(996, 276)
+shape = SubResource("RectangleShape2D_0naw0")
+
+[node name="Jugador" parent="." instance=ExtResource("1_671ag")]
+position = Vector2(184, 464)
+
+[node name="Player2" parent="." instance=ExtResource("2_rf4qq")]
+position = Vector2(368, 448)
+
+[node name="Time" type="Label" parent="."]
+offset_right = 960.0
+offset_bottom = 56.0
+text = "10s"
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("3_rf4qq")
+
+[node name="Timer" type="Timer" parent="Time"]
+wait_time = 11.0
+
+[node name="Timer2" type="Timer" parent="Time"]
+
+[connection signal="timeout" from="Time/Timer" to="Time" method="_on_timer_timeout"]
+[connection signal="timeout" from="Time/Timer2" to="Time" method="_on_timer_2_timeout"]
