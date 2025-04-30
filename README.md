@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Análisis de las películas en *El beso de la mujer araña* y propuesta de videojuego platformer 2D  
 
 La obra maestra de Manuel Puig utiliza el cine como dispositivo narrativo fundamental, donde las películas relatadas por el personaje de Luis Alberto Molina funcionan como espejos distorsionados de los conflictos centrales de la novela. A continuación, se examinan las cuatro películas reales identificadas en el texto y su relación temática con la trama carcelaria, seguido de una propuesta lúdica que traslada estos elementos a un videojuego platformer 2D.  
@@ -84,3 +85,5 @@ El juego plantearía cuatro niveles, cada uno inspirado en una película, conect
 
 ## Conclusión  
 La transposición lúdica de estas películas requeriría un enfoque que trascienda la mera referencia visual. Cada nivel debería encapsular la dialéctica central de la novela: la tensión entre libertad y control, realidad y ficción. La mecánica de transformación en *Cat People* podría vincularse al sistema moral del juego, donde las elecciones afectan la narrativa final, reflejando el desarrollo de Molina y Valentín. El diseño sonoro jugaría un papel crucial, mezclando bandas sonoras clásicas con efectos diegéticos (ruidos de proyectores, susurros carcelarios) para mantener la cohesión temática[6]. Esta propuesta busca no solo entretener, sino invitar a la reflexión sobre cómo el arte (cine/videojuegos) permite renegociar identidades bajo opresión.
+=======
+>>>>>>> Stashed changes
