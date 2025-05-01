@@ -32,7 +32,7 @@ func _process(delta):
 		clear_points()
 		add_point(Vector2(0, 0), -1)
 		var y = 0
-		for x in range(1000):
+		for x in range(1300):
 			if vx > 0:
 				y = vy * x / vx + 0.5 * 980 * (x/vx) ** 2
 				add_point(Vector2(x, y), -1)

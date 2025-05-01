@@ -23,6 +23,9 @@ func _physics_process(delta):
 	if Input.is_action_pressed("w"):# and not is_on_ceiling():
 		jump = true
 		velocity.y += JUMP_VELOCITY
+		$AnimatedSprite2D.play('planejant')
+	else:
+		$AnimatedSprite2D.play('normal')
 		
 
 	# Get the input direction and handle the movement/deceleration.
@@ -33,5 +36,9 @@ func _physics_process(delta):
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
 
-
+	if velocity.x < 0:
+		$AnimatedSprite2D.flip_h = false
+	elif velocity.x > 0:
+		$AnimatedSprite2D.flip_h = true
+	
 	move_and_slide()
