@@ -93,7 +93,9 @@ func _ready():
 
 func _process(delta):
 	if $ColorRect.size.x <= 0:
-		get_tree().change_scene_to_file("res://Scenes/menu_in_game.tscn")
+		get_tree().change_scene_to_file("res://Scenes/interfaz.tscn")
+	if len(touch) == 0:
+		get_tree().change_scene_to_file("res://Scenes/victoria.tscn")
 
 
 func _on_timer_timeout():
@@ -118,34 +120,53 @@ func _on_timer_timeout():
 		if num1 == 1 or num2 == 1 or num3 == 1:
 			$"Lights/1/light".visible = false
 			$"Lights/1/PointLight2D".visible = false
+			
 		else:
 			$"Lights/1/light".visible = true
 			$"Lights/1/PointLight2D".visible = true
+			var overlapped = $"Lights/1/light".get_overlapping_areas()
+			for area in overlapped:
+				if area.name in ["MOLINA","VALENTIN"]:
+					Global.in_light = true
 	
 	if 2 in touch:
+		
 		if num1 == 2 or num2 == 2 or num3 == 2:
 			$"Lights/2/light2".visible = false
 			$"Lights/2/PointLight2D".visible = false
 		else:
 			$"Lights/2/light2".visible = true
 			$"Lights/2/PointLight2D".visible = true
+			var overlapped = $"Lights/2/light2".get_overlapping_areas()
+			for area in overlapped:
+				if area.name in ["MOLINA","VALENTIN"]:
+					Global.in_light = true
 	
 	if 3 in touch:
+		
 		if num1 == 3 or num2 == 3 or num3 == 3:
 			$"Lights/3/light3".visible = false
 			$"Lights/3/PointLight2D".visible = false
 		else:
 			$"Lights/3/light3".visible = true
 			$"Lights/3/PointLight2D".visible = true
+			var overlapped = $"Lights/3/light3".get_overlapping_areas()
+			for area in overlapped:
+				if area.name in ["MOLINA","VALENTIN"]:
+					Global.in_light = true
 	
 	if 4 in touch:
+		
 		if num1 == 4 or num2 == 4 or num3 == 4:
 			$"Lights/4/light4".visible = false
 			$"Lights/4/PointLight2D".visible = false
 		else:
 			$"Lights/4/light4".visible = true
 			$"Lights/4/PointLight2D".visible = true
-	
+			var overlapped = $"Lights/4/light4".get_overlapping_areas()
+			for area in overlapped:
+				if area.name in ["MOLINA","VALENTIN"]:
+					Global.in_light = true
 	if 5 in touch:
 		if num1 == 5 or num2 == 5 or num3 == 5:
 			$"Lights/5/light5".visible = false
@@ -153,14 +174,23 @@ func _on_timer_timeout():
 		else:
 			$"Lights/5/light5".visible = true
 			$"Lights/5/PointLight2D".visible = true
+			var overlapped = $"Lights/5/light5".get_overlapping_areas()
+			for area in overlapped:
+				if area.name in ["MOLINA","VALENTIN"]:
+					Global.in_light = true
 	
 	if 6 in touch:
 		if num1 == 6 or num2 == 6 or num3 == 6:
 			$"Lights/6/light6".visible = false
 			$"Lights/6/PointLight2D".visible = false
+			
 		else:
 			$"Lights/6/light6".visible = true
 			$"Lights/6/PointLight2D".visible = true
+			var overlapped = $"Lights/6/light6".get_overlapping_areas()
+			for area in overlapped:
+				if area.name in ["MOLINA","VALENTIN"]:
+					Global.in_light = true
 	if 7 in touch:
 		if num1 == 7 or num2 == 7 or num3 == 7:
 			$"Lights/7/light7".visible = false
@@ -168,29 +198,48 @@ func _on_timer_timeout():
 		else:
 			$"Lights/7/light7".visible = true
 			$"Lights/7/PointLight2D".visible = true
+			var overlapped = $"Lights/7/light7".get_overlapping_areas()
+			for area in overlapped:
+				if area.name in ["MOLINA","VALENTIN"]:
+					Global.in_light = true
 			
 	if 8 in touch:
+		
 		if num1 == 8 or num2 == 8 or num3 == 8:
 			$"Lights/8/light8".visible = false
 			$"Lights/8/PointLight2D".visible = false
 		else:
 			$"Lights/8/light8".visible = true
 			$"Lights/8/PointLight2D".visible = true
+			var overlapped = $"Lights/8/light8".get_overlapping_areas()
+			for area in overlapped:
+				if area.name in ["MOLINA","VALENTIN"]:
+					Global.in_light = true
 	
 	if 9 in touch:
+		
 		if num1 == 9 or num2 == 9 or num3 == 9:
 			$"Lights/9/light9".visible = false
 			$"Lights/9/PointLight2D".visible = false
 		else:
 			$"Lights/9/light9".visible = true
 			$"Lights/9/PointLight2D".visible = true
+			var overlapped = $"Lights/9/light9".get_overlapping_areas()
+			for area in overlapped:
+				if area.name in ["MOLINA","VALENTIN"]:
+					Global.in_light = true
 	if 10 in touch:
+		
 		if num1 == 10 or num2 == 10 or num3 == 10:
 			$"Lights/10/light10".visible = false
 			$"Lights/10/PointLight2D".visible = false
 		else:
 			$"Lights/10/light10".visible = true
 			$"Lights/10/PointLight2D".visible = true
+			var overlapped = $"Lights/10/light10".get_overlapping_areas()
+			for area in overlapped:
+				if area.name in ["MOLINA","VALENTIN"]:
+					Global.in_light = true
 	$Timer.start()
 
 
