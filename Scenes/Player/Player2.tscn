@@ -1,4 +1,4 @@
-[gd_scene load_steps=33 format=3 uid="uid://dewvmxi16552v"]
+[gd_scene load_steps=34 format=3 uid="uid://dewvmxi16552v"]
 
 [ext_resource type="Script" uid="uid://ovubwwv7moyx" path="res://Scripts/player2.gd" id="1_e4qqo"]
 [ext_resource type="Texture2D" uid="uid://bnpwcv7qrrq00" path="res://Resources/Personatge/CHICOS/VALENTÍN.png" id="2_y11ek"]
@@ -226,8 +226,13 @@ animations = [{
 "speed": 14.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_h0fdf"]
-size = Vector2(69.9999, 34)
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_y11ek"]
+radius = 17.0
+height = 70.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ja01c"]
+radius = 17.0
+height = 70.0001
 
 [node name="VALENTIN" type="CharacterBody2D"]
 collision_layer = 2
@@ -243,10 +248,17 @@ autoplay = "normal"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-5.96046e-08, 12)
-rotation = 1.5708
-shape = SubResource("RectangleShape2D_h0fdf")
+rotation = 3.14159
+shape = SubResource("CapsuleShape2D_y11ek")
 
 [node name="salto" type="AudioStreamPlayer2D" parent="."]
 position = Vector2(11, -3)
 stream = ExtResource("8_h0fdf")
 volume_db = 6.56
+
+[node name="VALENTIN" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="VALENTIN"]
+position = Vector2(-5.45192e-06, 12)
+rotation = 3.14159
+shape = SubResource("CapsuleShape2D_ja01c")

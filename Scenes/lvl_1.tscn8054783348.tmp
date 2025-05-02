@@ -1,9 +1,8 @@
-[gd_scene load_steps=16 format=3 uid="uid://bda7owdof311i"]
+[gd_scene load_steps=12 format=3 uid="uid://bda7owdof311i"]
 
 [ext_resource type="PackedScene" uid="uid://bwppkoqx0wytc" path="res://Scenes/Player/jugador.tscn" id="1_671ag"]
 [ext_resource type="PackedScene" uid="uid://dewvmxi16552v" path="res://Scenes/Player/Player2.tscn" id="2_rf4qq"]
 [ext_resource type="Script" uid="uid://cwpwy83c7kgcr" path="res://Scenes/time.gd" id="3_rf4qq"]
-[ext_resource type="Texture2D" uid="uid://q03beugv5lju" path="res://Resources/star_PNG41495.png" id="4_34tpy"]
 [ext_resource type="Texture2D" uid="uid://blhakget25um8" path="res://Resources/lampara.png" id="4_md3j3"]
 [ext_resource type="Texture2D" uid="uid://c6m83bujgtbk7" path="res://Resources/images.png" id="5_34tpy"]
 
@@ -24,38 +23,7 @@ radius = 16.0
 height = 160.0
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_aju2k"]
-radius = 56.0
-
-[sub_resource type="Curve" id="Curve_34tpy"]
-_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.977941, 0), 0.0, 0.0, 0, 0]
-point_count = 2
-
-[sub_resource type="CurveTexture" id="CurveTexture_0naw0"]
-curve = SubResource("Curve_34tpy")
-
-[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_aju2k"]
-particle_flag_disable_z = true
-direction = Vector3(0, 0, 0)
-spread = 0.0
-angular_velocity_min = 0.999984
-angular_velocity_max = 0.999984
-orbit_velocity_min = 0.1
-orbit_velocity_max = 0.1
-radial_velocity_min = 50.0
-radial_velocity_max = 50.0
-gravity = Vector3(0, 0, 0)
-linear_accel_min = 150.0
-linear_accel_max = 150.0
-radial_accel_min = 10.0
-radial_accel_max = 10.0
-tangential_accel_min = 10.0
-tangential_accel_max = 10.0
-damping_min = 10.0
-damping_max = 10.0
-scale_min = 0.01
-scale_max = 0.01
-scale_curve = SubResource("CurveTexture_0naw0")
-color = Color(0, 0, 0, 1)
+radius = 64.0
 
 [node name="Time" type="Node2D"]
 script = ExtResource("3_rf4qq")
@@ -159,9 +127,9 @@ shape = SubResource("CircleShape2D_aju2k")
 [node name="2" type="Node2D" parent="Lights"]
 position = Vector2(448, 80)
 
-[node name="Area2D2" type="Area2D" parent="Lights/2"]
+[node name="Area2D" type="Area2D" parent="Lights/2"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/2/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/2/Area2D"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
 [node name="Sprite2D" type="Sprite2D" parent="Lights/2"]
@@ -174,18 +142,18 @@ scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light2" type="Area2D" parent="Lights/2"]
+[node name="light" type="Area2D" parent="Lights/2"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/2/light2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/2/light"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
 [node name="3" type="Node2D" parent="Lights"]
 position = Vector2(72, 176)
 
-[node name="Area2D3" type="Area2D" parent="Lights/3"]
+[node name="Area2D" type="Area2D" parent="Lights/3"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/3/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/3/Area2D"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
 [node name="Sprite2D" type="Sprite2D" parent="Lights/3"]
@@ -198,18 +166,18 @@ scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light3" type="Area2D" parent="Lights/3"]
+[node name="light" type="Area2D" parent="Lights/3"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/3/light3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/3/light"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
 [node name="4" type="Node2D" parent="Lights"]
 position = Vector2(616, 224)
 
-[node name="Area2D4" type="Area2D" parent="Lights/4"]
+[node name="Area2D" type="Area2D" parent="Lights/4"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/4/Area2D4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/4/Area2D"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
 [node name="Sprite2D" type="Sprite2D" parent="Lights/4"]
@@ -222,18 +190,18 @@ scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light4" type="Area2D" parent="Lights/4"]
+[node name="light" type="Area2D" parent="Lights/4"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/4/light4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/4/light"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
 [node name="5" type="Node2D" parent="Lights"]
 position = Vector2(440, 360)
 
-[node name="Area2D5" type="Area2D" parent="Lights/5"]
+[node name="Area2D" type="Area2D" parent="Lights/5"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/5/Area2D5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/5/Area2D"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
 [node name="Sprite2D" type="Sprite2D" parent="Lights/5"]
@@ -246,18 +214,18 @@ scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light5" type="Area2D" parent="Lights/5"]
+[node name="light" type="Area2D" parent="Lights/5"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/5/light5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/5/light"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
 [node name="6" type="Node2D" parent="Lights"]
 position = Vector2(192, 208)
 
-[node name="Area2D6" type="Area2D" parent="Lights/6"]
+[node name="Area2D" type="Area2D" parent="Lights/6"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/6/Area2D6"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/6/Area2D"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
 [node name="Sprite2D" type="Sprite2D" parent="Lights/6"]
@@ -270,18 +238,18 @@ scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light6" type="Area2D" parent="Lights/6"]
+[node name="light" type="Area2D" parent="Lights/6"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/6/light6"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/6/light"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
 [node name="7" type="Node2D" parent="Lights"]
 position = Vector2(784, 168)
 
-[node name="Area2D7" type="Area2D" parent="Lights/7"]
+[node name="Area2D" type="Area2D" parent="Lights/7"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/7/Area2D7"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/7/Area2D"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
 [node name="Sprite2D" type="Sprite2D" parent="Lights/7"]
@@ -294,18 +262,18 @@ scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light7" type="Area2D" parent="Lights/7"]
+[node name="light" type="Area2D" parent="Lights/7"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/7/light7"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/7/light"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
 [node name="8" type="Node2D" parent="Lights"]
 position = Vector2(640, 472)
 
-[node name="Area2D8" type="Area2D" parent="Lights/8"]
+[node name="Area2D" type="Area2D" parent="Lights/8"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/8/Area2D8"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/8/Area2D"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
 [node name="Sprite2D" type="Sprite2D" parent="Lights/8"]
@@ -318,18 +286,18 @@ scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light8" type="Area2D" parent="Lights/8"]
+[node name="light" type="Area2D" parent="Lights/8"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/8/light8"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/8/light"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
 [node name="9" type="Node2D" parent="Lights"]
 position = Vector2(880, 472)
 
-[node name="Area2D9" type="Area2D" parent="Lights/9"]
+[node name="Area2D" type="Area2D" parent="Lights/9"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/9/Area2D9"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/9/Area2D"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
 [node name="Sprite2D" type="Sprite2D" parent="Lights/9"]
@@ -342,18 +310,18 @@ scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light9" type="Area2D" parent="Lights/9"]
+[node name="light" type="Area2D" parent="Lights/9"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/9/light9"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/9/light"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
 [node name="10" type="Node2D" parent="Lights"]
 position = Vector2(80, 472)
 
-[node name="Area2D10" type="Area2D" parent="Lights/10"]
+[node name="Area2D" type="Area2D" parent="Lights/10"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/10/Area2D10"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/10/Area2D"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
 [node name="Sprite2D" type="Sprite2D" parent="Lights/10"]
@@ -366,132 +334,37 @@ scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light10" type="Area2D" parent="Lights/10"]
+[node name="light" type="Area2D" parent="Lights/10"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/10/light10"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/10/light"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
-
-[node name="Particles" type="Node2D" parent="."]
-
-[node name="1" type="GPUParticles2D" parent="Particles"]
-position = Vector2(272, 464)
-emitting = false
-amount = 12
-texture = ExtResource("4_34tpy")
-one_shot = true
-process_material = SubResource("ParticleProcessMaterial_aju2k")
-
-[node name="2" type="GPUParticles2D" parent="Particles"]
-position = Vector2(448, 80)
-emitting = false
-amount = 12
-texture = ExtResource("4_34tpy")
-one_shot = true
-process_material = SubResource("ParticleProcessMaterial_aju2k")
-
-[node name="3" type="GPUParticles2D" parent="Particles"]
-position = Vector2(72, 176)
-emitting = false
-amount = 12
-texture = ExtResource("4_34tpy")
-one_shot = true
-process_material = SubResource("ParticleProcessMaterial_aju2k")
-
-[node name="4" type="GPUParticles2D" parent="Particles"]
-position = Vector2(616, 224)
-emitting = false
-amount = 12
-texture = ExtResource("4_34tpy")
-one_shot = true
-process_material = SubResource("ParticleProcessMaterial_aju2k")
-
-[node name="5" type="GPUParticles2D" parent="Particles"]
-position = Vector2(440, 360)
-emitting = false
-amount = 12
-texture = ExtResource("4_34tpy")
-one_shot = true
-process_material = SubResource("ParticleProcessMaterial_aju2k")
-
-[node name="6" type="GPUParticles2D" parent="Particles"]
-position = Vector2(192, 208)
-emitting = false
-amount = 12
-texture = ExtResource("4_34tpy")
-one_shot = true
-process_material = SubResource("ParticleProcessMaterial_aju2k")
-
-[node name="7" type="GPUParticles2D" parent="Particles"]
-position = Vector2(784, 168)
-emitting = false
-amount = 12
-texture = ExtResource("4_34tpy")
-one_shot = true
-process_material = SubResource("ParticleProcessMaterial_aju2k")
-
-[node name="8" type="GPUParticles2D" parent="Particles"]
-position = Vector2(640, 472)
-emitting = false
-amount = 12
-texture = ExtResource("4_34tpy")
-one_shot = true
-process_material = SubResource("ParticleProcessMaterial_aju2k")
-
-[node name="9" type="GPUParticles2D" parent="Particles"]
-position = Vector2(880, 472)
-emitting = false
-amount = 12
-texture = ExtResource("4_34tpy")
-one_shot = true
-process_material = SubResource("ParticleProcessMaterial_aju2k")
-
-[node name="10" type="GPUParticles2D" parent="Particles"]
-position = Vector2(80, 472)
-emitting = false
-amount = 12
-texture = ExtResource("4_34tpy")
-one_shot = true
-process_material = SubResource("ParticleProcessMaterial_aju2k")
-
-[node name="Timer" type="Timer" parent="Particles"]
-wait_time = 0.25
 
 [node name="MOLINA" parent="." instance=ExtResource("1_671ag")]
 position = Vector2(184, 464)
 
 [node name="VALENTIN" parent="." instance=ExtResource("2_rf4qq")]
-position = Vector2(544, 488)
+position = Vector2(384, 480)
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
 [connection signal="timeout" from="Timer2" to="." method="_on_timer_2_timeout"]
-[connection signal="area_entered" from="Lights/1/Area2D" to="." method="_on_area_2d_area_entered"]
 [connection signal="area_entered" from="Lights/1/light" to="." method="_on_light_area_entered"]
 [connection signal="area_exited" from="Lights/1/light" to="." method="_on_light_area_exited"]
-[connection signal="area_entered" from="Lights/2/Area2D2" to="." method="_on_area_2d_2_area_entered"]
-[connection signal="area_entered" from="Lights/2/light2" to="." method="_on_light_2_area_entered"]
-[connection signal="area_exited" from="Lights/2/light2" to="." method="_on_light_2_area_exited"]
-[connection signal="area_entered" from="Lights/3/Area2D3" to="." method="_on_area_2d_3_area_entered"]
-[connection signal="area_entered" from="Lights/3/light3" to="." method="_on_light_3_area_entered"]
-[connection signal="area_exited" from="Lights/3/light3" to="." method="_on_light_3_area_exited"]
-[connection signal="area_entered" from="Lights/4/Area2D4" to="." method="_on_area_2d_4_area_entered"]
-[connection signal="area_entered" from="Lights/4/light4" to="." method="_on_light_4_area_entered"]
-[connection signal="area_exited" from="Lights/4/light4" to="." method="_on_light_4_area_exited"]
-[connection signal="area_entered" from="Lights/5/Area2D5" to="." method="_on_area_2d_5_area_entered"]
-[connection signal="area_entered" from="Lights/5/light5" to="." method="_on_light_5_area_entered"]
-[connection signal="area_exited" from="Lights/5/light5" to="." method="_on_light_5_area_exited"]
-[connection signal="area_entered" from="Lights/6/Area2D6" to="." method="_on_area_2d_6_area_entered"]
-[connection signal="area_entered" from="Lights/6/light6" to="." method="_on_light_6_area_entered"]
-[connection signal="area_exited" from="Lights/6/light6" to="." method="_on_light_6_area_exited"]
-[connection signal="area_entered" from="Lights/7/Area2D7" to="." method="_on_area_2d_7_area_entered"]
-[connection signal="area_entered" from="Lights/7/light7" to="." method="_on_light_7_area_entered"]
-[connection signal="area_exited" from="Lights/7/light7" to="." method="_on_light_7_area_exited"]
-[connection signal="area_entered" from="Lights/8/Area2D8" to="." method="_on_area_2d_8_area_entered"]
-[connection signal="area_entered" from="Lights/8/light8" to="." method="_on_light_8_area_entered"]
-[connection signal="area_exited" from="Lights/8/light8" to="." method="_on_light_8_area_exited"]
-[connection signal="area_entered" from="Lights/9/Area2D9" to="." method="_on_area_2d_9_area_entered"]
-[connection signal="area_entered" from="Lights/9/light9" to="." method="_on_light_9_area_entered"]
-[connection signal="area_exited" from="Lights/9/light9" to="." method="_on_light_9_area_exited"]
-[connection signal="area_entered" from="Lights/10/Area2D10" to="." method="_on_area_2d_10_area_entered"]
-[connection signal="area_entered" from="Lights/10/light10" to="." method="_on_light_10_area_entered"]
-[connection signal="area_exited" from="Lights/10/light10" to="." method="_on_light_10_area_exited"]
+[connection signal="area_entered" from="Lights/2/light" to="." method="_on_light_area_entered"]
+[connection signal="area_exited" from="Lights/2/light" to="." method="_on_light_area_exited"]
+[connection signal="area_entered" from="Lights/3/light" to="." method="_on_light_area_entered"]
+[connection signal="area_exited" from="Lights/3/light" to="." method="_on_light_area_exited"]
+[connection signal="area_entered" from="Lights/4/light" to="." method="_on_light_area_entered"]
+[connection signal="area_exited" from="Lights/4/light" to="." method="_on_light_area_exited"]
+[connection signal="area_entered" from="Lights/5/light" to="." method="_on_light_area_entered"]
+[connection signal="area_exited" from="Lights/5/light" to="." method="_on_light_area_exited"]
+[connection signal="area_entered" from="Lights/6/light" to="." method="_on_light_area_entered"]
+[connection signal="area_exited" from="Lights/6/light" to="." method="_on_light_area_exited"]
+[connection signal="area_entered" from="Lights/7/light" to="." method="_on_light_area_entered"]
+[connection signal="area_exited" from="Lights/7/light" to="." method="_on_light_area_exited"]
+[connection signal="area_entered" from="Lights/8/light" to="." method="_on_light_area_entered"]
+[connection signal="area_exited" from="Lights/8/light" to="." method="_on_light_area_exited"]
+[connection signal="area_entered" from="Lights/9/light" to="." method="_on_light_area_entered"]
+[connection signal="area_exited" from="Lights/9/light" to="." method="_on_light_area_exited"]
+[connection signal="area_entered" from="Lights/10/light" to="." method="_on_light_area_entered"]
+[connection signal="area_exited" from="Lights/10/light" to="." method="_on_light_area_exited"]
