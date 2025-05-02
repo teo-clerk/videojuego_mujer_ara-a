@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://pnmioxifxray"
+path="res://.godot/imported/VALERIA LYNCH- Musical ＂El Beso de la Mujer Araña＂.mp3-32aaabe8438edd0b08ad63acc2ab59f8.mp3str"
+
+[deps]
+
+source_file="res://Resources/Musica/PELÍCULAS/VALERIA LYNCH- Musical ＂El Beso de la Mujer Araña＂.mp3"
+dest_files=["res://.godot/imported/VALERIA LYNCH- Musical ＂El Beso de la Mujer Araña＂.mp3-32aaabe8438edd0b08ad63acc2ab59f8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

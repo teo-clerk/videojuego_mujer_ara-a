@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dk3h16ul1ufxl"
+path="res://.godot/imported/Cat People (recons. J. Morgan) ： Horror Sequence.mp3-b071c3f55df4fa5f574058fc5895bc29.mp3str"
+
+[deps]
+
+source_file="res://Resources/Musica/PELÍCULAS/Cat People (recons. J. Morgan) ： Horror Sequence.mp3"
+dest_files=["res://.godot/imported/Cat People (recons. J. Morgan) ： Horror Sequence.mp3-b071c3f55df4fa5f574058fc5895bc29.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
