@@ -8,7 +8,7 @@
 [ext_resource type="Script" uid="uid://bw8344fv0rfan" path="res://Scripts/Nivell2.gd" id="9_4suh0"]
 [ext_resource type="PackedScene" uid="uid://di6pk5fs4p4ci" path="res://Scenes/mapa0.tscn" id="9_jntif"]
 [ext_resource type="Script" uid="uid://ddrba357k77qr" path="res://Scripts/Nivell3.gd" id="10_7f5kp"]
-[ext_resource type="PackedScene" uid="uid://pwuok1fnhkix" path="res://Scenes/mapa_1.tscn" id="10_bnwcw"]
+[ext_resource type="PackedScene" uid="uid://pwuok1fnhkix" path="res://Scenes/1_PANTERA.tscn" id="10_bnwcw"]
 [ext_resource type="Script" uid="uid://bw6l75lps8wc8" path="res://Scripts/TornarAlMenú.gd" id="11_mwhfi"]
 [ext_resource type="PackedScene" uid="uid://b14yhr8ofc81" path="res://Scenes/mapa_2.tscn" id="12_ttaqq"]
 [ext_resource type="Script" uid="uid://bo212ysrlb7lf" path="res://Scenes/Muisca.gd" id="13_c0wja"]
