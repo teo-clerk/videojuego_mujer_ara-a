@@ -30,7 +30,7 @@ radius = 56.0
 _data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.977941, 0), 0.0, 0.0, 0, 0]
 point_count = 2
 
-[sub_resource type="CurveTexture" id="CurveTexture_0naw0"]
+[sub_resource type="CurveTexture" id="CurveTexture_34tpy"]
 curve = SubResource("Curve_34tpy")
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_aju2k"]
@@ -54,327 +54,329 @@ damping_min = 10.0
 damping_max = 10.0
 scale_min = 0.01
 scale_max = 0.01
-scale_curve = SubResource("CurveTexture_0naw0")
+scale_curve = SubResource("CurveTexture_34tpy")
 color = Color(0, 0, 0, 1)
 
-[node name="Time" type="Node2D"]
+[node name="lvl1" type="Node2D"]
+
+[node name="Time" type="Node2D" parent="."]
 script = ExtResource("3_rf4qq")
 
-[node name="LVL1" type="Node2D" parent="."]
+[node name="LVL1" type="Node2D" parent="Time"]
 
-[node name="bkg" type="ColorRect" parent="LVL1"]
+[node name="bkg" type="ColorRect" parent="Time/LVL1"]
 offset_right = 960.0
 offset_bottom = 544.0
 color = Color(0.219501, 0.219501, 0.219501, 1)
 
-[node name="ColorRect" type="ColorRect" parent="LVL1"]
+[node name="ColorRect" type="ColorRect" parent="Time/LVL1"]
 offset_left = -64.0
 offset_top = -56.0
 offset_bottom = 576.0
 
-[node name="ColorRect2" type="ColorRect" parent="LVL1/ColorRect"]
+[node name="ColorRect2" type="ColorRect" parent="Time/LVL1/ColorRect"]
 layout_mode = 0
 offset_left = 64.0
 offset_right = 1024.0
 offset_bottom = 56.0
 
-[node name="ColorRect3" type="ColorRect" parent="LVL1/ColorRect"]
+[node name="ColorRect3" type="ColorRect" parent="Time/LVL1/ColorRect"]
 layout_mode = 0
 offset_left = 64.0
 offset_top = 596.0
 offset_right = 1024.0
 offset_bottom = 656.0
 
-[node name="ColorRect" type="ColorRect" parent="LVL1/ColorRect"]
+[node name="ColorRect" type="ColorRect" parent="Time/LVL1/ColorRect"]
 layout_mode = 0
 offset_left = 1024.0
 offset_top = 8.0
 offset_right = 1088.0
 offset_bottom = 640.0
 
-[node name="StaticBody2D" type="StaticBody2D" parent="LVL1"]
+[node name="StaticBody2D" type="StaticBody2D" parent="Time/LVL1"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="LVL1/StaticBody2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/LVL1/StaticBody2D"]
 position = Vector2(-32, 260)
 shape = SubResource("RectangleShape2D_olvls")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="LVL1/StaticBody2D"]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Time/LVL1/StaticBody2D"]
 position = Vector2(487, -28)
 shape = SubResource("RectangleShape2D_md3j3")
 
-[node name="CollisionShape2D3" type="CollisionShape2D" parent="LVL1/StaticBody2D"]
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Time/LVL1/StaticBody2D"]
 position = Vector2(480, 572)
 shape = SubResource("RectangleShape2D_34tpy")
 
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="LVL1/StaticBody2D"]
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Time/LVL1/StaticBody2D"]
 position = Vector2(996, 276)
 shape = SubResource("RectangleShape2D_0naw0")
 
-[node name="ColorRect2" type="ColorRect" parent="."]
+[node name="ColorRect2" type="ColorRect" parent="Time"]
 offset_left = 8.0
 offset_top = 8.0
 offset_right = 216.0
 offset_bottom = 40.0
 color = Color(0.500098, 0.53767, 0.54447, 1)
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="Time"]
 offset_left = 16.0
 offset_top = 16.0
 offset_right = 208.0
 offset_bottom = 32.0
 color = Color(0.432659, 0.798639, 0.53054, 1)
 
-[node name="Timer" type="Timer" parent="."]
+[node name="Timer" type="Timer" parent="Time"]
 wait_time = 11.0
 
-[node name="Timer2" type="Timer" parent="."]
+[node name="Timer2" type="Timer" parent="Time"]
 wait_time = 0.1
 
-[node name="Lights" type="Node2D" parent="."]
+[node name="Lights" type="Node2D" parent="Time"]
 
-[node name="1" type="Node2D" parent="Lights"]
+[node name="1" type="Node2D" parent="Time/Lights"]
 position = Vector2(272, 464)
 
-[node name="Area2D" type="Area2D" parent="Lights/1"]
+[node name="Area2D" type="Area2D" parent="Time/Lights/1"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/1/Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/1/Area2D"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
-[node name="Sprite2D" type="Sprite2D" parent="Lights/1"]
+[node name="Sprite2D" type="Sprite2D" parent="Time/Lights/1"]
 scale = Vector2(0.160185, 0.160185)
 texture = ExtResource("4_md3j3")
 
-[node name="PointLight2D" type="PointLight2D" parent="Lights/1"]
+[node name="PointLight2D" type="PointLight2D" parent="Time/Lights/1"]
 position = Vector2(0, -48)
 scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light" type="Area2D" parent="Lights/1"]
+[node name="light" type="Area2D" parent="Time/Lights/1"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/1/light"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/1/light"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
-[node name="2" type="Node2D" parent="Lights"]
+[node name="2" type="Node2D" parent="Time/Lights"]
 position = Vector2(448, 80)
 
-[node name="Area2D2" type="Area2D" parent="Lights/2"]
+[node name="Area2D2" type="Area2D" parent="Time/Lights/2"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/2/Area2D2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/2/Area2D2"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
-[node name="Sprite2D" type="Sprite2D" parent="Lights/2"]
+[node name="Sprite2D" type="Sprite2D" parent="Time/Lights/2"]
 scale = Vector2(0.160185, 0.160185)
 texture = ExtResource("4_md3j3")
 
-[node name="PointLight2D" type="PointLight2D" parent="Lights/2"]
+[node name="PointLight2D" type="PointLight2D" parent="Time/Lights/2"]
 position = Vector2(0, -48)
 scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light2" type="Area2D" parent="Lights/2"]
+[node name="light2" type="Area2D" parent="Time/Lights/2"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/2/light2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/2/light2"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
-[node name="3" type="Node2D" parent="Lights"]
+[node name="3" type="Node2D" parent="Time/Lights"]
 position = Vector2(72, 176)
 
-[node name="Area2D3" type="Area2D" parent="Lights/3"]
+[node name="Area2D3" type="Area2D" parent="Time/Lights/3"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/3/Area2D3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/3/Area2D3"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
-[node name="Sprite2D" type="Sprite2D" parent="Lights/3"]
+[node name="Sprite2D" type="Sprite2D" parent="Time/Lights/3"]
 scale = Vector2(0.160185, 0.160185)
 texture = ExtResource("4_md3j3")
 
-[node name="PointLight2D" type="PointLight2D" parent="Lights/3"]
+[node name="PointLight2D" type="PointLight2D" parent="Time/Lights/3"]
 position = Vector2(0, -48)
 scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light3" type="Area2D" parent="Lights/3"]
+[node name="light3" type="Area2D" parent="Time/Lights/3"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/3/light3"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/3/light3"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
-[node name="4" type="Node2D" parent="Lights"]
+[node name="4" type="Node2D" parent="Time/Lights"]
 position = Vector2(616, 224)
 
-[node name="Area2D4" type="Area2D" parent="Lights/4"]
+[node name="Area2D4" type="Area2D" parent="Time/Lights/4"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/4/Area2D4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/4/Area2D4"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
-[node name="Sprite2D" type="Sprite2D" parent="Lights/4"]
+[node name="Sprite2D" type="Sprite2D" parent="Time/Lights/4"]
 scale = Vector2(0.160185, 0.160185)
 texture = ExtResource("4_md3j3")
 
-[node name="PointLight2D" type="PointLight2D" parent="Lights/4"]
+[node name="PointLight2D" type="PointLight2D" parent="Time/Lights/4"]
 position = Vector2(0, -48)
 scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light4" type="Area2D" parent="Lights/4"]
+[node name="light4" type="Area2D" parent="Time/Lights/4"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/4/light4"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/4/light4"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
-[node name="5" type="Node2D" parent="Lights"]
+[node name="5" type="Node2D" parent="Time/Lights"]
 position = Vector2(440, 360)
 
-[node name="Area2D5" type="Area2D" parent="Lights/5"]
+[node name="Area2D5" type="Area2D" parent="Time/Lights/5"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/5/Area2D5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/5/Area2D5"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
-[node name="Sprite2D" type="Sprite2D" parent="Lights/5"]
+[node name="Sprite2D" type="Sprite2D" parent="Time/Lights/5"]
 scale = Vector2(0.160185, 0.160185)
 texture = ExtResource("4_md3j3")
 
-[node name="PointLight2D" type="PointLight2D" parent="Lights/5"]
+[node name="PointLight2D" type="PointLight2D" parent="Time/Lights/5"]
 position = Vector2(0, -48)
 scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light5" type="Area2D" parent="Lights/5"]
+[node name="light5" type="Area2D" parent="Time/Lights/5"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/5/light5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/5/light5"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
-[node name="6" type="Node2D" parent="Lights"]
+[node name="6" type="Node2D" parent="Time/Lights"]
 position = Vector2(192, 208)
 
-[node name="Area2D6" type="Area2D" parent="Lights/6"]
+[node name="Area2D6" type="Area2D" parent="Time/Lights/6"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/6/Area2D6"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/6/Area2D6"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
-[node name="Sprite2D" type="Sprite2D" parent="Lights/6"]
+[node name="Sprite2D" type="Sprite2D" parent="Time/Lights/6"]
 scale = Vector2(0.160185, 0.160185)
 texture = ExtResource("4_md3j3")
 
-[node name="PointLight2D" type="PointLight2D" parent="Lights/6"]
+[node name="PointLight2D" type="PointLight2D" parent="Time/Lights/6"]
 position = Vector2(0, -48)
 scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light6" type="Area2D" parent="Lights/6"]
+[node name="light6" type="Area2D" parent="Time/Lights/6"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/6/light6"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/6/light6"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
-[node name="7" type="Node2D" parent="Lights"]
+[node name="7" type="Node2D" parent="Time/Lights"]
 position = Vector2(784, 168)
 
-[node name="Area2D7" type="Area2D" parent="Lights/7"]
+[node name="Area2D7" type="Area2D" parent="Time/Lights/7"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/7/Area2D7"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/7/Area2D7"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
-[node name="Sprite2D" type="Sprite2D" parent="Lights/7"]
+[node name="Sprite2D" type="Sprite2D" parent="Time/Lights/7"]
 scale = Vector2(0.160185, 0.160185)
 texture = ExtResource("4_md3j3")
 
-[node name="PointLight2D" type="PointLight2D" parent="Lights/7"]
+[node name="PointLight2D" type="PointLight2D" parent="Time/Lights/7"]
 position = Vector2(0, -48)
 scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light7" type="Area2D" parent="Lights/7"]
+[node name="light7" type="Area2D" parent="Time/Lights/7"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/7/light7"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/7/light7"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
-[node name="8" type="Node2D" parent="Lights"]
+[node name="8" type="Node2D" parent="Time/Lights"]
 position = Vector2(640, 472)
 
-[node name="Area2D8" type="Area2D" parent="Lights/8"]
+[node name="Area2D8" type="Area2D" parent="Time/Lights/8"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/8/Area2D8"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/8/Area2D8"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
-[node name="Sprite2D" type="Sprite2D" parent="Lights/8"]
+[node name="Sprite2D" type="Sprite2D" parent="Time/Lights/8"]
 scale = Vector2(0.160185, 0.160185)
 texture = ExtResource("4_md3j3")
 
-[node name="PointLight2D" type="PointLight2D" parent="Lights/8"]
+[node name="PointLight2D" type="PointLight2D" parent="Time/Lights/8"]
 position = Vector2(0, -48)
 scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light8" type="Area2D" parent="Lights/8"]
+[node name="light8" type="Area2D" parent="Time/Lights/8"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/8/light8"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/8/light8"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
-[node name="9" type="Node2D" parent="Lights"]
+[node name="9" type="Node2D" parent="Time/Lights"]
 position = Vector2(880, 472)
 
-[node name="Area2D9" type="Area2D" parent="Lights/9"]
+[node name="Area2D9" type="Area2D" parent="Time/Lights/9"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/9/Area2D9"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/9/Area2D9"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
-[node name="Sprite2D" type="Sprite2D" parent="Lights/9"]
+[node name="Sprite2D" type="Sprite2D" parent="Time/Lights/9"]
 scale = Vector2(0.160185, 0.160185)
 texture = ExtResource("4_md3j3")
 
-[node name="PointLight2D" type="PointLight2D" parent="Lights/9"]
+[node name="PointLight2D" type="PointLight2D" parent="Time/Lights/9"]
 position = Vector2(0, -48)
 scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light9" type="Area2D" parent="Lights/9"]
+[node name="light9" type="Area2D" parent="Time/Lights/9"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/9/light9"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/9/light9"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
-[node name="10" type="Node2D" parent="Lights"]
+[node name="10" type="Node2D" parent="Time/Lights"]
 position = Vector2(80, 472)
 
-[node name="Area2D10" type="Area2D" parent="Lights/10"]
+[node name="Area2D10" type="Area2D" parent="Time/Lights/10"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/10/Area2D10"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/10/Area2D10"]
 shape = SubResource("CapsuleShape2D_0naw0")
 
-[node name="Sprite2D" type="Sprite2D" parent="Lights/10"]
+[node name="Sprite2D" type="Sprite2D" parent="Time/Lights/10"]
 scale = Vector2(0.160185, 0.160185)
 texture = ExtResource("4_md3j3")
 
-[node name="PointLight2D" type="PointLight2D" parent="Lights/10"]
+[node name="PointLight2D" type="PointLight2D" parent="Time/Lights/10"]
 position = Vector2(0, -48)
 scale = Vector2(0.853333, 0.853333)
 color = Color(1, 1, 0.611765, 1)
 texture = ExtResource("5_34tpy")
 
-[node name="light10" type="Area2D" parent="Lights/10"]
+[node name="light10" type="Area2D" parent="Time/Lights/10"]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Lights/10/light10"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Time/Lights/10/light10"]
 position = Vector2(0, -48)
 shape = SubResource("CircleShape2D_aju2k")
 
-[node name="Particles" type="Node2D" parent="."]
+[node name="Particles" type="Node2D" parent="Time"]
 
-[node name="1" type="GPUParticles2D" parent="Particles"]
+[node name="1" type="GPUParticles2D" parent="Time/Particles"]
 position = Vector2(272, 464)
 emitting = false
 amount = 12
@@ -382,7 +384,7 @@ texture = ExtResource("4_34tpy")
 one_shot = true
 process_material = SubResource("ParticleProcessMaterial_aju2k")
 
-[node name="2" type="GPUParticles2D" parent="Particles"]
+[node name="2" type="GPUParticles2D" parent="Time/Particles"]
 position = Vector2(448, 80)
 emitting = false
 amount = 12
@@ -390,7 +392,7 @@ texture = ExtResource("4_34tpy")
 one_shot = true
 process_material = SubResource("ParticleProcessMaterial_aju2k")
 
-[node name="3" type="GPUParticles2D" parent="Particles"]
+[node name="3" type="GPUParticles2D" parent="Time/Particles"]
 position = Vector2(72, 176)
 emitting = false
 amount = 12
@@ -398,7 +400,7 @@ texture = ExtResource("4_34tpy")
 one_shot = true
 process_material = SubResource("ParticleProcessMaterial_aju2k")
 
-[node name="4" type="GPUParticles2D" parent="Particles"]
+[node name="4" type="GPUParticles2D" parent="Time/Particles"]
 position = Vector2(616, 224)
 emitting = false
 amount = 12
@@ -406,7 +408,7 @@ texture = ExtResource("4_34tpy")
 one_shot = true
 process_material = SubResource("ParticleProcessMaterial_aju2k")
 
-[node name="5" type="GPUParticles2D" parent="Particles"]
+[node name="5" type="GPUParticles2D" parent="Time/Particles"]
 position = Vector2(440, 360)
 emitting = false
 amount = 12
@@ -414,7 +416,7 @@ texture = ExtResource("4_34tpy")
 one_shot = true
 process_material = SubResource("ParticleProcessMaterial_aju2k")
 
-[node name="6" type="GPUParticles2D" parent="Particles"]
+[node name="6" type="GPUParticles2D" parent="Time/Particles"]
 position = Vector2(192, 208)
 emitting = false
 amount = 12
@@ -422,7 +424,7 @@ texture = ExtResource("4_34tpy")
 one_shot = true
 process_material = SubResource("ParticleProcessMaterial_aju2k")
 
-[node name="7" type="GPUParticles2D" parent="Particles"]
+[node name="7" type="GPUParticles2D" parent="Time/Particles"]
 position = Vector2(784, 168)
 emitting = false
 amount = 12
@@ -430,7 +432,7 @@ texture = ExtResource("4_34tpy")
 one_shot = true
 process_material = SubResource("ParticleProcessMaterial_aju2k")
 
-[node name="8" type="GPUParticles2D" parent="Particles"]
+[node name="8" type="GPUParticles2D" parent="Time/Particles"]
 position = Vector2(640, 472)
 emitting = false
 amount = 12
@@ -438,7 +440,7 @@ texture = ExtResource("4_34tpy")
 one_shot = true
 process_material = SubResource("ParticleProcessMaterial_aju2k")
 
-[node name="9" type="GPUParticles2D" parent="Particles"]
+[node name="9" type="GPUParticles2D" parent="Time/Particles"]
 position = Vector2(880, 472)
 emitting = false
 amount = 12
@@ -446,7 +448,7 @@ texture = ExtResource("4_34tpy")
 one_shot = true
 process_material = SubResource("ParticleProcessMaterial_aju2k")
 
-[node name="10" type="GPUParticles2D" parent="Particles"]
+[node name="10" type="GPUParticles2D" parent="Time/Particles"]
 position = Vector2(80, 472)
 emitting = false
 amount = 12
@@ -454,44 +456,44 @@ texture = ExtResource("4_34tpy")
 one_shot = true
 process_material = SubResource("ParticleProcessMaterial_aju2k")
 
-[node name="Timer" type="Timer" parent="Particles"]
+[node name="Timer" type="Timer" parent="Time/Particles"]
 wait_time = 0.25
 
-[node name="MOLINA" parent="." instance=ExtResource("1_671ag")]
+[node name="MOLINA" parent="Time" instance=ExtResource("1_671ag")]
 position = Vector2(184, 464)
 
-[node name="VALENTIN" parent="." instance=ExtResource("2_rf4qq")]
+[node name="VALENTIN" parent="Time" instance=ExtResource("2_rf4qq")]
 position = Vector2(544, 488)
 
-[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
-[connection signal="timeout" from="Timer2" to="." method="_on_timer_2_timeout"]
-[connection signal="area_entered" from="Lights/1/Area2D" to="." method="_on_area_2d_area_entered"]
-[connection signal="area_entered" from="Lights/1/light" to="." method="_on_light_area_entered"]
-[connection signal="area_exited" from="Lights/1/light" to="." method="_on_light_area_exited"]
-[connection signal="area_entered" from="Lights/2/Area2D2" to="." method="_on_area_2d_2_area_entered"]
-[connection signal="area_entered" from="Lights/2/light2" to="." method="_on_light_2_area_entered"]
-[connection signal="area_exited" from="Lights/2/light2" to="." method="_on_light_2_area_exited"]
-[connection signal="area_entered" from="Lights/3/Area2D3" to="." method="_on_area_2d_3_area_entered"]
-[connection signal="area_entered" from="Lights/3/light3" to="." method="_on_light_3_area_entered"]
-[connection signal="area_exited" from="Lights/3/light3" to="." method="_on_light_3_area_exited"]
-[connection signal="area_entered" from="Lights/4/Area2D4" to="." method="_on_area_2d_4_area_entered"]
-[connection signal="area_entered" from="Lights/4/light4" to="." method="_on_light_4_area_entered"]
-[connection signal="area_exited" from="Lights/4/light4" to="." method="_on_light_4_area_exited"]
-[connection signal="area_entered" from="Lights/5/Area2D5" to="." method="_on_area_2d_5_area_entered"]
-[connection signal="area_entered" from="Lights/5/light5" to="." method="_on_light_5_area_entered"]
-[connection signal="area_exited" from="Lights/5/light5" to="." method="_on_light_5_area_exited"]
-[connection signal="area_entered" from="Lights/6/Area2D6" to="." method="_on_area_2d_6_area_entered"]
-[connection signal="area_entered" from="Lights/6/light6" to="." method="_on_light_6_area_entered"]
-[connection signal="area_exited" from="Lights/6/light6" to="." method="_on_light_6_area_exited"]
-[connection signal="area_entered" from="Lights/7/Area2D7" to="." method="_on_area_2d_7_area_entered"]
-[connection signal="area_entered" from="Lights/7/light7" to="." method="_on_light_7_area_entered"]
-[connection signal="area_exited" from="Lights/7/light7" to="." method="_on_light_7_area_exited"]
-[connection signal="area_entered" from="Lights/8/Area2D8" to="." method="_on_area_2d_8_area_entered"]
-[connection signal="area_entered" from="Lights/8/light8" to="." method="_on_light_8_area_entered"]
-[connection signal="area_exited" from="Lights/8/light8" to="." method="_on_light_8_area_exited"]
-[connection signal="area_entered" from="Lights/9/Area2D9" to="." method="_on_area_2d_9_area_entered"]
-[connection signal="area_entered" from="Lights/9/light9" to="." method="_on_light_9_area_entered"]
-[connection signal="area_exited" from="Lights/9/light9" to="." method="_on_light_9_area_exited"]
-[connection signal="area_entered" from="Lights/10/Area2D10" to="." method="_on_area_2d_10_area_entered"]
-[connection signal="area_entered" from="Lights/10/light10" to="." method="_on_light_10_area_entered"]
-[connection signal="area_exited" from="Lights/10/light10" to="." method="_on_light_10_area_exited"]
+[connection signal="timeout" from="Time/Timer" to="Time" method="_on_timer_timeout"]
+[connection signal="timeout" from="Time/Timer2" to="Time" method="_on_timer_2_timeout"]
+[connection signal="area_entered" from="Time/Lights/1/Area2D" to="Time" method="_on_area_2d_area_entered"]
+[connection signal="area_entered" from="Time/Lights/1/light" to="Time" method="_on_light_area_entered"]
+[connection signal="area_exited" from="Time/Lights/1/light" to="Time" method="_on_light_area_exited"]
+[connection signal="area_entered" from="Time/Lights/2/Area2D2" to="Time" method="_on_area_2d_2_area_entered"]
+[connection signal="area_entered" from="Time/Lights/2/light2" to="Time" method="_on_light_2_area_entered"]
+[connection signal="area_exited" from="Time/Lights/2/light2" to="Time" method="_on_light_2_area_exited"]
+[connection signal="area_entered" from="Time/Lights/3/Area2D3" to="Time" method="_on_area_2d_3_area_entered"]
+[connection signal="area_entered" from="Time/Lights/3/light3" to="Time" method="_on_light_3_area_entered"]
+[connection signal="area_exited" from="Time/Lights/3/light3" to="Time" method="_on_light_3_area_exited"]
+[connection signal="area_entered" from="Time/Lights/4/Area2D4" to="Time" method="_on_area_2d_4_area_entered"]
+[connection signal="area_entered" from="Time/Lights/4/light4" to="Time" method="_on_light_4_area_entered"]
+[connection signal="area_exited" from="Time/Lights/4/light4" to="Time" method="_on_light_4_area_exited"]
+[connection signal="area_entered" from="Time/Lights/5/Area2D5" to="Time" method="_on_area_2d_5_area_entered"]
+[connection signal="area_entered" from="Time/Lights/5/light5" to="Time" method="_on_light_5_area_entered"]
+[connection signal="area_exited" from="Time/Lights/5/light5" to="Time" method="_on_light_5_area_exited"]
+[connection signal="area_entered" from="Time/Lights/6/Area2D6" to="Time" method="_on_area_2d_6_area_entered"]
+[connection signal="area_entered" from="Time/Lights/6/light6" to="Time" method="_on_light_6_area_entered"]
+[connection signal="area_exited" from="Time/Lights/6/light6" to="Time" method="_on_light_6_area_exited"]
+[connection signal="area_entered" from="Time/Lights/7/Area2D7" to="Time" method="_on_area_2d_7_area_entered"]
+[connection signal="area_entered" from="Time/Lights/7/light7" to="Time" method="_on_light_7_area_entered"]
+[connection signal="area_exited" from="Time/Lights/7/light7" to="Time" method="_on_light_7_area_exited"]
+[connection signal="area_entered" from="Time/Lights/8/Area2D8" to="Time" method="_on_area_2d_8_area_entered"]
+[connection signal="area_entered" from="Time/Lights/8/light8" to="Time" method="_on_light_8_area_entered"]
+[connection signal="area_exited" from="Time/Lights/8/light8" to="Time" method="_on_light_8_area_exited"]
+[connection signal="area_entered" from="Time/Lights/9/Area2D9" to="Time" method="_on_area_2d_9_area_entered"]
+[connection signal="area_entered" from="Time/Lights/9/light9" to="Time" method="_on_light_9_area_entered"]
+[connection signal="area_exited" from="Time/Lights/9/light9" to="Time" method="_on_light_9_area_exited"]
+[connection signal="area_entered" from="Time/Lights/10/Area2D10" to="Time" method="_on_area_2d_10_area_entered"]
+[connection signal="area_entered" from="Time/Lights/10/light10" to="Time" method="_on_light_10_area_entered"]
+[connection signal="area_exited" from="Time/Lights/10/light10" to="Time" method="_on_light_10_area_exited"]
