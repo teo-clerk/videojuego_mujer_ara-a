@@ -1,0 +1,110 @@
+[gd_scene load_steps=24 format=3 uid="uid://bh3wclyx3rwcl"]
+
+[ext_resource type="Script" uid="uid://vd8r14wro101" path="res://villano.gd" id="1_pfmw6"]
+[ext_resource type="Texture2D" uid="uid://dvaw07hn66353" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00000.png" id="2_bwxx2"]
+[ext_resource type="Texture2D" uid="uid://cyp6dt2l3c6tx" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00001.png" id="3_81kmv"]
+[ext_resource type="Texture2D" uid="uid://d0wvpbxwnlira" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00002.png" id="4_qbcl2"]
+[ext_resource type="Texture2D" uid="uid://dt61kr2wd5sga" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00003.png" id="5_34051"]
+[ext_resource type="Texture2D" uid="uid://bijemystsc3ya" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00004.png" id="6_p113x"]
+[ext_resource type="Texture2D" uid="uid://bgbsscgm8uqr8" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00005.png" id="7_o46i5"]
+[ext_resource type="Texture2D" uid="uid://dyl2imda1gtjm" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00006.png" id="8_67vk1"]
+[ext_resource type="Texture2D" uid="uid://clanlit55sb1i" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00007.png" id="9_131nb"]
+[ext_resource type="Texture2D" uid="uid://ckt6rxonw6qgh" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00008.png" id="10_y40f3"]
+[ext_resource type="Texture2D" uid="uid://cc3agf3cs8g3v" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00009.png" id="11_qvgfu"]
+[ext_resource type="Texture2D" uid="uid://cu5t1guyxebrh" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00010.png" id="12_a3ihf"]
+[ext_resource type="Texture2D" uid="uid://cwxdyay5o4a5r" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00011.png" id="13_n424l"]
+[ext_resource type="Texture2D" uid="uid://da25kwnwwlov7" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00012.png" id="14_2ey1w"]
+[ext_resource type="Texture2D" uid="uid://igummr3l1njl" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00013.png" id="15_kmgkb"]
+[ext_resource type="Texture2D" uid="uid://rwcovpvygr4n" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00014.png" id="16_l0lja"]
+[ext_resource type="Texture2D" uid="uid://4q86fiek4vs7" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00015.png" id="17_u8rm6"]
+[ext_resource type="Texture2D" uid="uid://tffbwrb830we" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00016.png" id="18_8w0ch"]
+[ext_resource type="Texture2D" uid="uid://dv8w7dmt3qvly" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00017.png" id="19_1tsuk"]
+[ext_resource type="Texture2D" uid="uid://cjg5t6drlvpte" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00018.png" id="20_j4p36"]
+[ext_resource type="Texture2D" uid="uid://w1nugbu24q8h" path="res://Resources/PELÍCULAS/2/VILLAIN/2BlueWizardWalk/Chara_BlueWalk00019.png" id="21_ocyh4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u7rg2"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_bwxx2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_81kmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_qbcl2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_34051")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_p113x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_o46i5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_67vk1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_131nb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_y40f3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_qvgfu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_a3ihf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_n424l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_2ey1w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_kmgkb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_l0lja")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_u8rm6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_8w0ch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_1tsuk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_j4p36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ocyh4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 30.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pfmw6"]
+size = Vector2(117, 197)
+
+[node name="VILLANO" type="Area2D"]
+collision_layer = 8
+collision_mask = 2
+script = ExtResource("1_pfmw6")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_u7rg2")
+autoplay = "default"
+frame_progress = 0.975226
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 36.5)
+shape = SubResource("RectangleShape2D_pfmw6")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

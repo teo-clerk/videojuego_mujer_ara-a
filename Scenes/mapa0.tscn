@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://c3gce40a68k5g" path="res://Scenes/rayo.tscn" id="5_f7sq7"]
 [ext_resource type="PackedScene" uid="uid://bg4us3bt7b60x" path="res://Scenes/parallax_background.tscn" id="6_ukxrf"]
 [ext_resource type="PackedScene" uid="uid://sa6pi0oxnk6a" path="res://Scenes/pinchos.tscn" id="7_wugbm"]
-[ext_resource type="PackedScene" uid="uid://bdtlfebfm187c" path="res://Scenes/clau.tscn" id="8_f32hv"]
+[ext_resource type="PackedScene" uid="uid://bdtlfebfm187c" path="res://Scenes/TOTEM.tscn" id="8_f32hv"]
 [ext_resource type="Texture2D" uid="uid://bdr1xkfj5o3fo" path="res://pixil-frame-0(13).png" id="9_dbjus"]
 [ext_resource type="PackedScene" uid="uid://bwppkoqx0wytc" path="res://Scenes/Player/jugador.tscn" id="10_ml6ct"]
 [ext_resource type="PackedScene" uid="uid://ca6ton52sif71" path="res://Scenes/canvas_layer.tscn" id="12_sdv1r"]
@@ -718,44 +718,47 @@ position = Vector2(5495, 526)
 
 [node name="Area2D" parent="." instance=ExtResource("5_f7sq7")]
 position = Vector2(240, 387)
-scale = Vector2(2, 2)
+scale = Vector2(0.15, 0.15)
 
 [node name="Area2D2" parent="." instance=ExtResource("7_wugbm")]
 position = Vector2(1191, 466)
 rotation = 1.5708
+scale = Vector2(0.15, 0.15)
 
 [node name="Area2D3" parent="." instance=ExtResource("7_wugbm")]
 position = Vector2(1669, 430)
 rotation = 1.5708
-scale = Vector2(5, 3)
+scale = Vector2(0.15, 0.15)
 
 [node name="Area2D4" parent="." instance=ExtResource("7_wugbm")]
 position = Vector2(1669, 271)
 rotation = 1.5708
-scale = Vector2(5, 3)
+scale = Vector2(0.15, 0.15)
 
 [node name="Area2D5" parent="." instance=ExtResource("7_wugbm")]
 position = Vector2(1872, 210)
-scale = Vector2(2, 3)
+scale = Vector2(0.15, 0.15)
 
 [node name="Area2D6" parent="." instance=ExtResource("5_f7sq7")]
 position = Vector2(2068, 191)
 rotation = 1.5708
-scale = Vector2(2.5, 2.5)
+scale = Vector2(0.15, 0.15)
 
 [node name="Area2D7" parent="." instance=ExtResource("8_f32hv")]
 position = Vector2(2940, 327)
-scale = Vector2(0.4, 0.4)
+scale = Vector2(0.15, 0.15)
 
 [node name="Area2D8" parent="." instance=ExtResource("7_wugbm")]
 position = Vector2(4074, 603)
-scale = Vector2(10, 4)
+scale = Vector2(0.15, 0.15)
 
 [node name="Area2D9" parent="." instance=ExtResource("8_f32hv")]
 position = Vector2(4134, 98)
+scale = Vector2(0.15, 0.15)
 
 [node name="Area2D10" parent="." instance=ExtResource("8_f32hv")]
 position = Vector2(596, 251)
+scale = Vector2(0.15, 0.15)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 visible = false

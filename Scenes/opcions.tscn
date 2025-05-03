@@ -7,8 +7,8 @@
 [ext_resource type="Texture2D" uid="uid://b0yvvr2xjlodn" path="res://Resources/Tilemaps/Cyber_2/Assets/Props-01.png" id="4_qdq6x"]
 [ext_resource type="PackedScene" uid="uid://bwppkoqx0wytc" path="res://Scenes/Player/jugador.tscn" id="5_37s1c"]
 [ext_resource type="FontFile" uid="uid://dfjgmo3enloc1" path="res://Fonts/8-bit-limit/8bitlimr.ttf" id="6_pa1o1"]
-[ext_resource type="PackedScene" uid="uid://bvoxyc8e4k3y5" path="res://Scenes/moneda_normal.tscn" id="7_enldd"]
 [ext_resource type="Script" uid="uid://bw6l75lps8wc8" path="res://Scripts/TornarAlMenú.gd" id="8_2ea1a"]
+[ext_resource type="PackedScene" uid="uid://dewvmxi16552v" path="res://Scenes/Player/Player2.tscn" id="9_2fha1"]
 [ext_resource type="AudioStream" uid="uid://csiremfy62jr1" path="res://Resources/Musica/Sport Cyberpunk G-House by Infraction [No Copyright Music] - Shock Absorber (320).mp3" id="9_tc5rg"]
 [ext_resource type="Script" uid="uid://bo212ysrlb7lf" path="res://Scenes/Muisca.gd" id="11_r0ord"]
 
@@ -560,12 +560,7 @@ offset_bottom = 188.0
 theme_override_fonts/normal_font = ExtResource("6_pa1o1")
 theme_override_font_sizes/normal_font_size = 90
 bbcode_enabled = true
-text = "[center]OPC ONES[/center]"
-
-[node name="MonedaNormal" parent="." instance=ExtResource("7_enldd")]
-position = Vector2(453, 99)
-rotation = 2.27067
-scale = Vector2(2.5, 2.5)
+text = "[center]OPCiONES[/center]"
 
 [node name="Butons" type="Control" parent="."]
 layout_mode = 1
@@ -644,6 +639,9 @@ position = Vector2(-274, -235)
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Butons/HBoxContainer/Button/StaticBody2D"]
 position = Vector2(344, 258.5)
 shape = SubResource("RectangleShape2D_pmjjk")
+
+[node name="VALENTIN" parent="Butons/HBoxContainer/Button/StaticBody2D" instance=ExtResource("9_2fha1")]
+position = Vector2(595, 45)
 
 [node name="MUSI_ACC" type="Line2D" parent="Butons"]
 position = Vector2(-28.61, 0)

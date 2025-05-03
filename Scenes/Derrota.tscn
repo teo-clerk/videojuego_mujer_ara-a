@@ -50,7 +50,7 @@ text = "MENÚ"
 
 [node name="Sortir" type="Button" parent="BoxContainer"]
 layout_mode = 2
-text = "SORTIR"
+text = "SALIR"
 
 [connection signal="pressed" from="BoxContainer/TornarAIntentar" to="." method="_on_tornar_a_intentar_pressed"]
 [connection signal="pressed" from="BoxContainer/Menu" to="." method="_on_menu_pressed"]
