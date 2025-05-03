@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cfftk6knpdxad"]
+
+[ext_resource type="PackedScene" uid="uid://kp5ju6kbait4" path="res://Scenes/explain_lvl_1_text.tscn" id="1_immtg"]
+
+[node name="explain_lvl1" type="CanvasLayer"]
+
+[node name="explain_lvl1_text" parent="." instance=ExtResource("1_immtg")]

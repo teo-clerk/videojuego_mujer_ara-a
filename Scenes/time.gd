@@ -96,6 +96,13 @@ func _process(delta):
 		get_tree().change_scene_to_file("res://Scenes/interfaz.tscn")
 	if len(touch) == 0:
 		get_tree().change_scene_to_file("res://Scenes/victoria.tscn")
+	
+	if Global.coinlected == true:
+		Global.coinlected = false
+		if $ColorRect.size.x + 50 >= 192:
+			$ColorRect.size.x = 192
+		else:
+			$ColorRect.size.x += 50
 
 
 func _on_timer_timeout():

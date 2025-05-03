@@ -27,3 +27,4 @@ var l9 = true
 var l10 = true
 
 var lamps = 10
+var coinlected = false
