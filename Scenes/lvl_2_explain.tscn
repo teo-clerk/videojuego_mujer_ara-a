@@ -1,31 +1,24 @@
-[gd_scene load_steps=31 format=3 uid="uid://b14yhr8ofc81"]
+[gd_scene load_steps=24 format=3 uid="uid://cfka7y32safjh"]
 
-[ext_resource type="AudioStream" uid="uid://prqhly6hkuj6" path="res://Resources/Musica/PELÍCULAS/I Walked with a Zombie 1943 music by Roy Webb.mp3" id="1_qty3x"]
-[ext_resource type="Script" uid="uid://bo212ysrlb7lf" path="res://Scenes/Muisca.gd" id="2_p1rd5"]
-[ext_resource type="AudioStream" uid="uid://bivx18si1gkax" path="res://Resources/Musica/epic-hybrid-logo-157092.mp3" id="3_fhvtq"]
-[ext_resource type="PackedScene" uid="uid://cy7lwd5n486pq" path="res://Scenes/Porta.tscn" id="4_omjv7"]
-[ext_resource type="Texture2D" uid="uid://ccm2yvo0nu5la" path="res://Resources/PELÍCULAS/2/NightForest/Layers/1.png" id="4_qty3x"]
-[ext_resource type="Texture2D" uid="uid://1i336fxi2i0f" path="res://Resources/PELÍCULAS/2/NightForest/Layers/2.png" id="5_yrsl1"]
-[ext_resource type="Texture2D" uid="uid://cknpi47kxftgh" path="res://Resources/PELÍCULAS/2/NightForest/Layers/3.png" id="6_ynfvl"]
-[ext_resource type="Texture2D" uid="uid://b3yppqs1dcl1g" path="res://Resources/PELÍCULAS/2/NightForest/Layers/4.png" id="7_71ocw"]
-[ext_resource type="Texture2D" uid="uid://yu3q0bvtnujm" path="res://Resources/PELÍCULAS/2/NightForest/Layers/5.png" id="8_ylp83"]
-[ext_resource type="Texture2D" uid="uid://bmd81ml4rudck" path="res://Resources/PELÍCULAS/2/NightForest/Layers/6.png" id="9_77sxp"]
-[ext_resource type="PackedScene" uid="uid://bwppkoqx0wytc" path="res://Scenes/Player/jugador.tscn" id="10_bliy7"]
-[ext_resource type="PackedScene" uid="uid://dewvmxi16552v" path="res://Scenes/Player/Player2.tscn" id="10_qty3x"]
-[ext_resource type="PackedScene" uid="uid://sa6pi0oxnk6a" path="res://Scenes/pinchos.tscn" id="12_jcubh"]
-[ext_resource type="PackedScene" uid="uid://c3gce40a68k5g" path="res://Scenes/rayo.tscn" id="13_3j2e4"]
-[ext_resource type="PackedScene" uid="uid://ca6ton52sif71" path="res://Scenes/canvas_layer.tscn" id="13_gydgu"]
-[ext_resource type="Script" uid="uid://dam7f11vve1fk" path="res://Scripts/ConfiguracioMapa2.gd" id="14_dv3b0"]
-[ext_resource type="PackedScene" uid="uid://bdtlfebfm187c" path="res://Scenes/TOTEM.tscn" id="16_8u8s4"]
-[ext_resource type="Texture2D" uid="uid://vfcej8hpalqh" path="res://Resources/PELÍCULAS/2/TILESET/Mossy - TileSet.png" id="17_yrsl1"]
-[ext_resource type="Texture2D" uid="uid://bx8ehahjuysh0" path="res://Resources/PELÍCULAS/2/TILESET/Mossy - FloatingPlatforms.png" id="18_r2l6j"]
-[ext_resource type="Texture2D" uid="uid://dowpx5bc1rsho" path="res://Resources/PELÍCULAS/2/TILESET/Mossy - Decorations&Hazards.png" id="18_ylp83"]
-[ext_resource type="Texture2D" uid="uid://b8ylofxsr8uw6" path="res://Resources/PELÍCULAS/2/TILESET/Mossy - Hanging Plants.png" id="19_r2l6j"]
-[ext_resource type="Texture2D" uid="uid://b48yjpmcq6jaj" path="res://Resources/PELÍCULAS/2/TILESET/Mossy - BackgroundDecoration.png" id="20_77sxp"]
-[ext_resource type="PackedScene" uid="uid://bh3wclyx3rwcl" path="res://villano.tscn" id="23_qr84v"]
+[ext_resource type="Texture2D" uid="uid://ccm2yvo0nu5la" path="res://Resources/PELÍCULAS/2/NightForest/Layers/1.png" id="1_1br00"]
+[ext_resource type="Script" uid="uid://s2yana3o1q3x" path="res://Scripts/lvl_2_explain.gd" id="1_oshi4"]
+[ext_resource type="PackedScene" uid="uid://b14yhr8ofc81" path="res://Scenes/mapa_2.tscn" id="2_hey7w"]
+[ext_resource type="Texture2D" uid="uid://1i336fxi2i0f" path="res://Resources/PELÍCULAS/2/NightForest/Layers/2.png" id="2_nduk7"]
+[ext_resource type="Texture2D" uid="uid://cknpi47kxftgh" path="res://Resources/PELÍCULAS/2/NightForest/Layers/3.png" id="3_vd8ht"]
+[ext_resource type="Texture2D" uid="uid://b3yppqs1dcl1g" path="res://Resources/PELÍCULAS/2/NightForest/Layers/4.png" id="4_oshi4"]
+[ext_resource type="Texture2D" uid="uid://yu3q0bvtnujm" path="res://Resources/PELÍCULAS/2/NightForest/Layers/5.png" id="5_hey7w"]
+[ext_resource type="Texture2D" uid="uid://bmd81ml4rudck" path="res://Resources/PELÍCULAS/2/NightForest/Layers/6.png" id="6_phnrk"]
+[ext_resource type="PackedScene" uid="uid://sa6pi0oxnk6a" path="res://Scenes/pinchos.tscn" id="7_y5eul"]
+[ext_resource type="Texture2D" uid="uid://dowpx5bc1rsho" path="res://Resources/PELÍCULAS/2/TILESET/Mossy - Decorations&Hazards.png" id="8_fm32b"]
+[ext_resource type="Texture2D" uid="uid://b8ylofxsr8uw6" path="res://Resources/PELÍCULAS/2/TILESET/Mossy - Hanging Plants.png" id="9_cvtps"]
+[ext_resource type="Texture2D" uid="uid://b48yjpmcq6jaj" path="res://Resources/PELÍCULAS/2/TILESET/Mossy - BackgroundDecoration.png" id="10_heix2"]
+[ext_resource type="Texture2D" uid="uid://vfcej8hpalqh" path="res://Resources/PELÍCULAS/2/TILESET/Mossy - TileSet.png" id="11_ekxek"]
+[ext_resource type="Texture2D" uid="uid://bx8ehahjuysh0" path="res://Resources/PELÍCULAS/2/TILESET/Mossy - FloatingPlatforms.png" id="12_i1va0"]
+[ext_resource type="PackedScene" uid="uid://bwppkoqx0wytc" path="res://Scenes/Player/jugador.tscn" id="13_vd8ht"]
+[ext_resource type="PackedScene" uid="uid://dewvmxi16552v" path="res://Scenes/Player/Player2.tscn" id="14_oshi4"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qr84v"]
-texture = ExtResource("18_ylp83")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v338a"]
+texture = ExtResource("8_fm32b")
 texture_region_size = Vector2i(512, 512)
 0:1/0 = 0
 1:1/0 = 0
@@ -89,8 +82,8 @@ texture_region_size = Vector2i(512, 512)
 2:7/0 = 0
 3:7/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_i8yqq"]
-texture = ExtResource("19_r2l6j")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hmh6u"]
+texture = ExtResource("9_cvtps")
 texture_region_size = Vector2i(468, 444)
 0:0/0 = 0
 0:1/0 = 0
@@ -117,8 +110,8 @@ texture_region_size = Vector2i(468, 444)
 2:5/0 = 0
 3:5/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xvifo"]
-texture = ExtResource("20_77sxp")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yt4u4"]
+texture = ExtResource("10_heix2")
 texture_region_size = Vector2i(512, 512)
 0:0/0 = 0
 0:1/0 = 0
@@ -183,14 +176,14 @@ texture_region_size = Vector2i(512, 512)
 4:6/0 = 0
 4:5/0 = 0
 
-[sub_resource type="TileSet" id="TileSet_jhjh1"]
+[sub_resource type="TileSet" id="TileSet_5gsrb"]
 tile_size = Vector2i(468, 444)
-sources/0 = SubResource("TileSetAtlasSource_qr84v")
-sources/1 = SubResource("TileSetAtlasSource_i8yqq")
-sources/2 = SubResource("TileSetAtlasSource_xvifo")
+sources/0 = SubResource("TileSetAtlasSource_v338a")
+sources/1 = SubResource("TileSetAtlasSource_hmh6u")
+sources/2 = SubResource("TileSetAtlasSource_yt4u4")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jhjh1"]
-texture = ExtResource("17_yrsl1")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ieshd"]
+texture = ExtResource("11_ekxek")
 texture_region_size = Vector2i(512, 512)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-183.477, -183.477, 256, -205.717, 256, 256, -189.037, 256)
@@ -291,8 +284,8 @@ texture_region_size = Vector2i(512, 512)
 0:6/0 = 0
 0:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-256, -256, 256, -256, 256, 256, -256, 256)
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ihfdn"]
-texture = ExtResource("18_r2l6j")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1ep0r"]
+texture = ExtResource("12_i1va0")
 texture_region_size = Vector2i(512, 512)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-144.368, -160.06, 131.814, -191.444, 91.0145, 53.3533, 9.41534, 91.0145, -97.2913, 56.4917)
@@ -327,95 +320,99 @@ texture_region_size = Vector2i(512, 512)
 0:3/0 = 0
 0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-207.136, -191.444, 256, -197.721, 256, 200.859, -156.921, 147.506)
 
-[sub_resource type="TileSet" id="TileSet_qty3x"]
+[sub_resource type="TileSet" id="TileSet_aip56"]
 tile_size = Vector2i(512, 512)
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_jhjh1")
-sources/1 = SubResource("TileSetAtlasSource_ihfdn")
+sources/0 = SubResource("TileSetAtlasSource_ieshd")
+sources/1 = SubResource("TileSetAtlasSource_1ep0r")
 
-[node name="Mapa2" type="Node2D"]
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("1_qty3x")
-volume_db = 6.987
-script = ExtResource("2_p1rd5")
-
-[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("3_fhvtq")
-script = ExtResource("2_p1rd5")
-plays = 2
+[node name="lvl2_explain" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_oshi4")
+escena = ExtResource("2_hey7w")
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="1" type="ParallaxLayer" parent="ParallaxBackground"]
 texture_filter = 1
+position = Vector2(1410, 0)
 motion_scale = Vector2(0.05, 0.05)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/1"]
 texture_repeat = 2
 position = Vector2(412, 270.75)
 scale = Vector2(3, 3.09563)
-texture = ExtResource("4_qty3x")
+texture = ExtResource("1_1br00")
 region_enabled = true
 region_rect = Rect2(0, 0, 100000, 183.839)
 
 [node name="2" type="ParallaxLayer" parent="ParallaxBackground"]
 texture_filter = 1
+position = Vector2(1410, 0)
 motion_scale = Vector2(0.1, 0.1)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/2"]
 texture_repeat = 2
 position = Vector2(412, 262)
 scale = Vector2(3, 3)
-texture = ExtResource("5_yrsl1")
+texture = ExtResource("2_nduk7")
 region_enabled = true
 region_rect = Rect2(0, 16.14, 100000, 176.66)
 
 [node name="3" type="ParallaxLayer" parent="ParallaxBackground"]
 texture_filter = 1
+position = Vector2(1410, 0)
 motion_scale = Vector2(0.2, 0.2)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/3"]
 texture_repeat = 2
 position = Vector2(412, 262)
 scale = Vector2(3, 3)
-texture = ExtResource("6_ynfvl")
+texture = ExtResource("3_vd8ht")
 region_enabled = true
 region_rect = Rect2(0, 0, 100000, 192)
 
 [node name="4" type="ParallaxLayer" parent="ParallaxBackground"]
 texture_filter = 1
+position = Vector2(1410, 0)
 motion_scale = Vector2(0.3, 0.3)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/4"]
 texture_repeat = 2
 position = Vector2(412, 270.75)
 scale = Vector2(3, 3.09563)
-texture = ExtResource("7_71ocw")
+texture = ExtResource("4_oshi4")
 region_enabled = true
 region_rect = Rect2(0, 0, 100000, 183.839)
 
 [node name="5" type="ParallaxLayer" parent="ParallaxBackground"]
 texture_filter = 1
+position = Vector2(1410, 0)
 motion_scale = Vector2(0.35, 0.35)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/5"]
 texture_repeat = 2
 position = Vector2(412, 270.75)
 scale = Vector2(3, 3.09563)
-texture = ExtResource("8_ylp83")
+texture = ExtResource("5_hey7w")
 region_enabled = true
 region_rect = Rect2(0, 0, 100000, 183.839)
 
 [node name="6" type="ParallaxLayer" parent="ParallaxBackground"]
 texture_filter = 1
+position = Vector2(1410, 0)
 motion_scale = Vector2(0.4, 0.4)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/6"]
 texture_repeat = 2
 position = Vector2(412, 270.75)
 scale = Vector2(3, 3.09563)
-texture = ExtResource("9_77sxp")
+texture = ExtResource("6_phnrk")
 region_enabled = true
 region_rect = Rect2(0, 0, 100000, 183.839)
 
@@ -425,1389 +422,1214 @@ anchors_preset = -1
 anchor_left = -1.01458
 anchor_right = 4.42812
 anchor_bottom = 1.0
-offset_left = -436.0
+offset_left = 973.997
+offset_right = 1410.0
 grow_horizontal = 2
 grow_vertical = 2
 color = Color(3.60981e-07, 0.290083, 0.277308, 0.364706)
 metadata/_edit_use_anchors_ = true
 
-[node name="MOLINA" parent="." instance=ExtResource("10_bliy7")]
-position = Vector2(-1300, 55)
-
-[node name="VALENTIN" parent="." instance=ExtResource("10_qty3x")]
-position = Vector2(-1294, 219)
-
-[node name="Camera2D2" type="Camera2D" parent="VALENTIN"]
-position = Vector2(0, -409)
-limit_left = -1440
-limit_top = 0
-limit_right = 4270
-limit_bottom = 530
-limit_smoothed = true
-
 [node name="Pinchos" type="Node" parent="."]
 
-[node name="Area2D4" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D4" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3695, 211)
+position = Vector2(5105, 211)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D5" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D5" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-1165, 97)
+position = Vector2(244.997, 97)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D6" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D6" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-895, 94)
+position = Vector2(514.997, 94)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D7" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D7" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-175, 12)
+position = Vector2(1235, 12)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D8" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D8" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-391, 95)
+position = Vector2(1019, 95)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D9" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D9" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(302, 96)
+position = Vector2(1712, 96)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D10" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D10" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(372, 94)
+position = Vector2(1782, 94)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D11" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D11" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(397, 95)
+position = Vector2(1807, 95)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D13" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D13" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(749, 97)
+position = Vector2(2159, 97)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D14" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D14" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(921, 8)
+position = Vector2(2331, 8)
 rotation = -1.67552
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D15" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D15" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1467, 127)
+position = Vector2(2877, 127)
 scale = Vector2(3.615, 3.615)
 
-[node name="Area2D16" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D16" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(749, 97)
+position = Vector2(2159, 97)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D17" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D17" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1470, 13)
+position = Vector2(2880, 13)
 rotation = 3.14159
 scale = Vector2(3.615, 3.615)
 
-[node name="Area2D18" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D18" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2541, 31)
+position = Vector2(3951, 31)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D19" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D19" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2317, 95)
+position = Vector2(3727, 95)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D20" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D20" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3998, 119)
+position = Vector2(5408, 119)
 rotation = 1.55509
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D12" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D12" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-434, 389)
+position = Vector2(975.997, 389)
 rotation = -1.55509
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D21" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D21" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-505, 324)
+position = Vector2(904.997, 324)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D22" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D22" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-278, 269)
+position = Vector2(1132, 269)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D23" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D23" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(9.99994, 332)
+position = Vector2(1420, 332)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D24" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D24" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(304, 257)
+position = Vector2(1714, 257)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D25" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D25" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(594, 373)
+position = Vector2(2004, 373)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D26" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D26" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(867, 223)
+position = Vector2(2277, 223)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D27" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D27" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1220, 317)
+position = Vector2(2630, 317)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D28" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D28" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1635, 262)
+position = Vector2(3045, 262)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D29" parent="Pinchos" instance=ExtResource("12_jcubh")]
+[node name="Area2D29" parent="Pinchos" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1912, 407)
+position = Vector2(3322, 407)
 scale = Vector2(2.035, 2.035)
 
 [node name="SUELO_PINCHO" type="Node" parent="Pinchos"]
 
-[node name="Area2D22" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D22" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-1105, 432)
+position = Vector2(304.997, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D23" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D23" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-1034.18, 432)
+position = Vector2(375.817, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D24" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D24" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-967, 432)
+position = Vector2(442.997, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D25" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D25" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-896.18, 432)
+position = Vector2(513.817, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D26" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D26" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-821, 432)
+position = Vector2(588.997, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D27" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D27" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-750.18, 432)
+position = Vector2(659.817, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D28" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D28" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-683, 432)
+position = Vector2(726.997, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D29" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D29" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-612.18, 432)
+position = Vector2(797.817, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D30" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D30" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-544, 432)
+position = Vector2(865.997, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D31" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D31" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-473.18, 432)
+position = Vector2(936.817, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D32" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D32" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-406, 432)
+position = Vector2(1004, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D33" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D33" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-335.18, 432)
+position = Vector2(1074.82, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D34" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D34" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-265, 431)
+position = Vector2(1145, 431)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D35" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D35" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-194.18, 431)
+position = Vector2(1215.82, 431)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D36" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D36" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-127, 431)
+position = Vector2(1283, 431)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D37" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D37" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-56.1801, 431)
+position = Vector2(1353.82, 431)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D38" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D38" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(13, 432)
+position = Vector2(1423, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D39" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D39" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(83.8199, 432)
+position = Vector2(1493.82, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D40" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D40" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(151, 432)
+position = Vector2(1561, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D41" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D41" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(221.82, 432)
+position = Vector2(1631.82, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D42" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D42" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(247, 432)
+position = Vector2(1657, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D43" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D43" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(317.82, 432)
+position = Vector2(1727.82, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D44" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D44" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(385, 432)
+position = Vector2(1795, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D45" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D45" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(455.82, 432)
+position = Vector2(1865.82, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D46" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D46" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(531, 432)
+position = Vector2(1941, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D47" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D47" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(601.82, 432)
+position = Vector2(2011.82, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D48" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D48" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(669, 432)
+position = Vector2(2079, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D49" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D49" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(739.82, 432)
+position = Vector2(2149.82, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D50" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D50" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(808, 432)
+position = Vector2(2218, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D51" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D51" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(878.82, 432)
+position = Vector2(2288.82, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D52" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D52" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(946, 432)
+position = Vector2(2356, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D53" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D53" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1016.82, 432)
+position = Vector2(2426.82, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D54" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D54" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1087, 431)
+position = Vector2(2497, 431)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D55" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D55" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1157.82, 431)
+position = Vector2(2567.82, 431)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D56" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D56" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1225, 431)
+position = Vector2(2635, 431)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D57" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D57" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1295.82, 431)
+position = Vector2(2705.82, 431)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D58" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D58" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1365, 432)
+position = Vector2(2775, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D59" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D59" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1435.82, 432)
+position = Vector2(2845.82, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D60" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D60" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1503, 432)
+position = Vector2(2913, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D61" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D61" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1573.82, 432)
+position = Vector2(2983.82, 432)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D62" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D62" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1596, 435)
+position = Vector2(3006, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D63" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D63" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1666.82, 435)
+position = Vector2(3076.82, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D64" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D64" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1734, 435)
+position = Vector2(3144, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D65" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D65" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1804.82, 435)
+position = Vector2(3214.82, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D66" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D66" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1880, 435)
+position = Vector2(3290, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D67" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D67" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1950.82, 435)
+position = Vector2(3360.82, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D91" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D91" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2192, 310)
+position = Vector2(3602, 310)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D92" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D92" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2192, 310)
+position = Vector2(3602, 310)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D93" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D93" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2666, 346)
+position = Vector2(4076, 346)
 rotation = 1.66679
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D96" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D96" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2801, 198)
+position = Vector2(4211, 198)
 rotation = 1.66679
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D97" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D97" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2801, 198)
+position = Vector2(4211, 198)
 rotation = 1.66679
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D94" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D94" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2871, 401)
+position = Vector2(4281, 401)
 rotation = 1.66679
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D95" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D95" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2871, 401)
+position = Vector2(4281, 401)
 rotation = 1.66679
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D68" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D68" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2018, 435)
+position = Vector2(3428, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D69" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D69" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2088.82, 435)
+position = Vector2(3498.82, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D70" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D70" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2157, 435)
+position = Vector2(3567, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D71" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D71" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2227.82, 435)
+position = Vector2(3637.82, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D72" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D72" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2295, 435)
+position = Vector2(3705, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D73" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D73" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2365.82, 435)
+position = Vector2(3775.82, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D74" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D74" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2436, 434)
+position = Vector2(3846, 434)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D75" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D75" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2506.82, 434)
+position = Vector2(3916.82, 434)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D76" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D76" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2574, 434)
+position = Vector2(3984, 434)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D77" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D77" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2644.82, 434)
+position = Vector2(4054.82, 434)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D78" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D78" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2714, 435)
+position = Vector2(4124, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D79" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D79" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2784.82, 435)
+position = Vector2(4194.82, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D80" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D80" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2852, 435)
+position = Vector2(4262, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D81" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D81" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2922.82, 435)
+position = Vector2(4332.82, 435)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D82" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D82" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2972, 434)
+position = Vector2(4382, 434)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D83" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D83" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3042.18, 433)
+position = Vector2(4452.18, 433)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D84" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D84" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3113, 433)
+position = Vector2(4523, 433)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D85" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D85" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3180.18, 433)
+position = Vector2(4590.18, 433)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D86" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D86" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3251, 433)
+position = Vector2(4661, 433)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D87" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D87" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3320.18, 434)
+position = Vector2(4730.18, 434)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D88" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D88" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3391, 434)
+position = Vector2(4801, 434)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D89" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D89" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3458.18, 434)
+position = Vector2(4868.18, 434)
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D90" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("12_jcubh")]
+[node name="Area2D90" parent="Pinchos/SUELO_PINCHO" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3529, 434)
+position = Vector2(4939, 434)
 scale = Vector2(2.035, 2.035)
 
 [node name="SUELO_PINCHO2" type="Node" parent="Pinchos"]
 
-[node name="Area2D22" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D22" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-1097, 178)
+position = Vector2(312.997, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D23" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D23" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-1026.18, 178)
+position = Vector2(383.817, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D24" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D24" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-959, 178)
+position = Vector2(450.997, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D25" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D25" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-888.18, 178)
+position = Vector2(521.817, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D26" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D26" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-813, 178)
+position = Vector2(596.997, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D27" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D27" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-742.18, 178)
+position = Vector2(667.817, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D28" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D28" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-675, 178)
+position = Vector2(734.997, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D29" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D29" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-604.18, 178)
+position = Vector2(805.817, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D30" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D30" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-536, 178)
+position = Vector2(873.997, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D31" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D31" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-465.18, 178)
+position = Vector2(944.817, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D32" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D32" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-398, 178)
+position = Vector2(1012, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D33" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D33" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-327.18, 178)
+position = Vector2(1082.82, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D34" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D34" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-257, 177)
+position = Vector2(1153, 177)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D35" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D35" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-186.18, 177)
+position = Vector2(1223.82, 177)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D36" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D36" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-119, 177)
+position = Vector2(1291, 177)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D37" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D37" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-48.1801, 177)
+position = Vector2(1361.82, 177)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D38" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D38" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(21, 178)
+position = Vector2(1431, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D39" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D39" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(91.8199, 178)
+position = Vector2(1501.82, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D40" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D40" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(159, 178)
+position = Vector2(1569, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D41" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D41" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(229.82, 178)
+position = Vector2(1639.82, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D42" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D42" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(255, 178)
+position = Vector2(1665, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D43" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D43" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(325.82, 178)
+position = Vector2(1735.82, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D44" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D44" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(393, 178)
+position = Vector2(1803, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D45" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D45" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(463.82, 178)
+position = Vector2(1873.82, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D46" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D46" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(539, 178)
+position = Vector2(1949, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D47" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D47" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(609.82, 178)
+position = Vector2(2019.82, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D48" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D48" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(677, 178)
+position = Vector2(2087, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D49" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D49" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(747.82, 178)
+position = Vector2(2157.82, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D50" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D50" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(816, 178)
+position = Vector2(2226, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D51" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D51" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(886.82, 178)
+position = Vector2(2296.82, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D52" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D52" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(954, 178)
+position = Vector2(2364, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D53" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D53" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1024.82, 178)
+position = Vector2(2434.82, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D54" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D54" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1095, 177)
+position = Vector2(2505, 177)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D55" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D55" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1165.82, 177)
+position = Vector2(2575.82, 177)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D56" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D56" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1233, 177)
+position = Vector2(2643, 177)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D57" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D57" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1303.82, 177)
+position = Vector2(2713.82, 177)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D58" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D58" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1373, 178)
+position = Vector2(2783, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D59" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D59" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1443.82, 178)
+position = Vector2(2853.82, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D60" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D60" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1511, 178)
+position = Vector2(2921, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D61" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D61" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1581.82, 178)
+position = Vector2(2991.82, 178)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D62" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D62" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1604, 181)
+position = Vector2(3014, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D63" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D63" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1674.82, 181)
+position = Vector2(3084.82, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D64" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D64" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1742, 181)
+position = Vector2(3152, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D65" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D65" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1812.82, 181)
+position = Vector2(3222.82, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D66" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D66" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1888, 181)
+position = Vector2(3298, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D67" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D67" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(1958.82, 181)
+position = Vector2(3368.82, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D68" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D68" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2026, 181)
+position = Vector2(3436, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D69" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D69" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2096.82, 181)
+position = Vector2(3506.82, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D70" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D70" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2165, 181)
+position = Vector2(3575, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D71" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D71" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2235.82, 181)
+position = Vector2(3645.82, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D72" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D72" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2303, 181)
+position = Vector2(3713, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D73" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D73" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2373.82, 181)
+position = Vector2(3783.82, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D74" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D74" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2444, 180)
+position = Vector2(3854, 180)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D75" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D75" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2514.82, 180)
+position = Vector2(3924.82, 180)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D76" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D76" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2582, 180)
+position = Vector2(3992, 180)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D77" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D77" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2652.82, 180)
+position = Vector2(4062.82, 180)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D78" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D78" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2722, 181)
+position = Vector2(4132, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D79" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D79" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3207, 323)
+position = Vector2(4617, 323)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D91" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D91" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3447, 268)
+position = Vector2(4857, 268)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D92" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D92" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3470, 230)
+position = Vector2(4880, 230)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D93" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D93" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3511, 293)
+position = Vector2(4921, 293)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D94" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D94" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3539, 250)
+position = Vector2(4949, 250)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D80" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D80" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2860, 181)
+position = Vector2(4270, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D81" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D81" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2930.82, 181)
+position = Vector2(4340.82, 181)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D82" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D82" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(2980, 180)
+position = Vector2(4390, 180)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D83" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D83" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3050.18, 179)
+position = Vector2(4460.18, 179)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D84" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D84" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3121, 179)
+position = Vector2(4531, 179)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D85" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D85" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3188.18, 179)
+position = Vector2(4598.18, 179)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D86" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D86" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3259, 179)
+position = Vector2(4669, 179)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D87" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D87" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3328.18, 180)
+position = Vector2(4738.18, 180)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D88" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D88" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3399, 180)
+position = Vector2(4809, 180)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D89" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D89" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3466.18, 180)
+position = Vector2(4876.18, 180)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
 
-[node name="Area2D90" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("12_jcubh")]
+[node name="Area2D90" parent="Pinchos/SUELO_PINCHO2" instance=ExtResource("7_y5eul")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(3537, 180)
+position = Vector2(4947, 180)
 rotation = 3.14159
 scale = Vector2(2.035, 2.035)
-
-[node name="Rayo" type="Node" parent="."]
-
-[node name="Area2D2" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(-967, 49)
-rotation = -0.00174533
-
-[node name="Area2D40" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(3105, 196)
-rotation = -1.55509
-scale = Vector2(3.5, 3.5)
-
-[node name="Area2D21" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(1767, 70)
-
-[node name="Area2D28" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(1909, 296)
-
-[node name="Area2D29" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(2195, 386)
-
-[node name="Area2D30" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(2404, 246)
-
-[node name="Area2D31" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(2404, 246)
-
-[node name="Area2D" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(-589, 329)
-rotation = 3.2306
-scale = Vector2(5.36, 5.36)
-
-[node name="Area2D11" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(-790, 298)
-rotation = 3.2306
-scale = Vector2(5.36, 5.36)
-
-[node name="Area2D5" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(632, 478)
-scale = Vector2(2.86, 2.86)
-
-[node name="Area2D6" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(3429, 381)
-
-[node name="Area2D7" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(3492, 380)
-
-[node name="Area2D8" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(3548, 378)
-
-[node name="Area2D3" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(3358, 59)
-rotation = -1.56556
-scale = Vector2(2.29, 2.29)
-
-[node name="Area2D4" parent="Rayo" instance=ExtResource("12_jcubh")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(233, 96)
-scale = Vector2(2.035, 2.035)
-
-[node name="Area2D9" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(-820, 47)
-rotation = -0.00174533
-
-[node name="Area2D10" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(-673, 52)
-rotation = -0.00174533
-
-[node name="Area2D22" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(2403, 56)
-
-[node name="Area2D23" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(2812, 60)
-
-[node name="Area2D24" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(2845, 64)
-
-[node name="Area2D25" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(2981, 55)
-
-[node name="Area2D26" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(2917, 71)
-rotation = -1.79594
-
-[node name="Area2D27" parent="Rayo" instance=ExtResource("13_3j2e4")]
-modulate = Color(0.11286, 0.466251, 0, 1)
-texture_filter = 1
-position = Vector2(3019, 54)
-
-[node name="CanvasLayer" parent="." instance=ExtResource("13_gydgu")]
-
-[node name="ConfiguracoNivell" type="Node" parent="."]
-script = ExtResource("14_dv3b0")
-
-[node name="Claus" type="Node" parent="."]
-
-[node name="Area2D8" parent="Claus" instance=ExtResource("16_8u8s4")]
-texture_filter = 1
-position = Vector2(3861, 426)
-scale = Vector2(0.25, 0.25)
-
-[node name="WIN" parent="." instance=ExtResource("4_omjv7")]
-texture_filter = 1
-position = Vector2(4107, 506)
-scale = Vector2(0.405, 0.405)
 
 [node name="DECORATIONS" type="TileMap" parent="."]
+position = Vector2(1435.84, -1.38)
 scale = Vector2(0.07, 0.07)
-tile_set = SubResource("TileSet_jhjh1")
+tile_set = SubResource("TileSet_5gsrb")
 format = 2
 layer_0/tile_data = PackedInt32Array(-36, 1, 0, 65500, 1, 1, 131036, 1, 2, 327651, 1, 0, 393187, 1, 1, 458723, 1, 2, 327666, 1, 0, 393202, 1, 1, 458738, 1, 2, -15, 1, 0, 65521, 1, 1, 131057, 1, 2, -1, 1, 0, 65535, 1, 1, 131071, 1, 2, 196625, 1, 0, 262161, 1, 1, 327697, 1, 2, 262169, 65537, 0, 327705, 65537, 1, 393241, 65537, 2, -65504, 65537, 0, 32, 65537, 1, 65568, 65537, 2, -65483, 65537, 0, 53, 65537, 1, 65589, 65537, 2, 262210, 65537, 0, 327746, 65537, 1, 393282, 65537, 2, 262225, 65537, 0, 327761, 65537, 1, 393297, 65537, 2, -65447, 65537, 0, 89, 65537, 1, 65625, 65537, 2, -65463, 65537, 0, 73, 65537, 1, 65609, 65537, 2, 262249, 65537, 0, 327785, 65537, 1, 393321, 65537, 2, -65423, 65537, 0, 113, 65537, 1, 65649, 65537, 2, -65420, 65537, 0, 116, 65537, 1, 65652, 65537, 2, -65436, 65537, 0, 100, 65537, 1, 65636, 65537, 2, 262197, 65537, 0, 327733, 65537, 1, 393269, 65537, 2, 262202, 1, 3, 327738, 1, 4, 393274, 1, 5, 262175, 1, 3, 327711, 1, 4, 393247, 1, 5, -65508, 1, 3, 28, 1, 4, 65564, 1, 5, 262152, 1, 3, 327688, 1, 4, 393224, 1, 5, -131055, 1, 3, -65519, 1, 4, 17, 1, 5, -131011, 1, 3, -65475, 1, 4, 61, 1, 5, 262218, 1, 3, 327754, 1, 4, 393290, 1, 5, 196716, 1, 3, 262252, 1, 4, 327788, 1, 5, -130967, 1, 3, -65431, 1, 4, 105, 1, 5, -65450, 1, 3, 86, 1, 4, 65622, 1, 5, 262189, 1, 3, 327725, 1, 4, 393261, 1, 5, 131129, 65536, 3, 196665, 65536, 4, 131130, 131072, 3, 196666, 131072, 4, 131146, 196608, 0, 196682, 196608, 1, 131147, 262144, 0, 196683, 262144, 1, 131178, 196608, 0, 196714, 196608, 1, 131179, 262144, 0, 196715, 262144, 1, 131073, 196608, 0, 196609, 196608, 1, 131074, 262144, 0, 196610, 262144, 1, 196571, 196608, 0, 262107, 196608, 1, 196572, 262144, 0, 262108, 262144, 1, 196605, 393216, 0, 262141, 393216, 1, 196606, 458752, 0, 262142, 458752, 1, 131105, 65536, 3, 196641, 65536, 4, 131106, 131072, 3, 196642, 131072, 4, 196578, 393216, 0, 262114, 393216, 1, 196579, 458752, 0, 262115, 458752, 1, 262235, 458752, 5, 327771, 458752, 6, 393307, 458752, 6, 458843, 458752, 6, 524379, 458752, 6, 589915, 458752, 6, 655451, 458752, 7, 196705, 196608, 7, 327741, 393216, 5, 393277, 393216, 6, 458813, 393216, 7, 196644, 393216, 5, 262180, 393216, 6, 327716, 393216, 7, 262147, 393216, 5, 327683, 393216, 6, 393219, 393216, 7, 327671, 262144, 5, 393207, 262144, 6, 458743, 262144, 7, 524284, 327680, 5, 589820, 327680, 6, 655356, 327680, 7, 786406, 327680, 5, 851942, 327680, 6, 917478, 327680, 7, 262215, 327680, 5, 327751, 327680, 6, 393287, 327680, 7, 262241, 327680, 5, 327777, 327680, 6, 393313, 327680, 7)
 
 [node name="TileMap" type="TileMap" parent="."]
+position = Vector2(1435.84, -1.38)
 scale = Vector2(0.07, 0.07)
-tile_set = SubResource("TileSet_qty3x")
+tile_set = SubResource("TileSet_aip56")
 format = 2
 layer_0/tile_data = PackedInt32Array(262106, 0, 0, 262107, 65536, 0, 262108, 65536, 0, 262109, 65536, 0, 262110, 65536, 0, 262111, 65536, 0, 262112, 65536, 0, 262113, 65536, 0, 262114, 65536, 0, 262115, 65536, 0, 262116, 65536, 0, 262117, 65536, 0, 262118, 65536, 0, 262119, 65536, 0, 262120, 65536, 0, 262121, 65536, 0, 262122, 65536, 0, 262123, 65536, 0, 262124, 65536, 0, 262125, 65536, 0, 262126, 65536, 0, 262127, 65536, 0, 262128, 65536, 0, 262129, 65536, 0, 262130, 65536, 0, 262131, 65536, 0, 262134, 65536, 0, 327642, 0, 2, 327643, 65536, 2, 327644, 65536, 2, 327645, 65536, 2, 327646, 65536, 2, 327647, 65536, 2, 327648, 65536, 2, 327649, 65536, 2, 327650, 65536, 2, 327651, 65536, 2, 327652, 65536, 2, 327653, 65536, 2, 327654, 65536, 2, 327655, 65536, 2, 327656, 65536, 2, 327657, 65536, 2, 327658, 65536, 2, 327659, 65536, 2, 327660, 65536, 2, 327661, 65536, 2, 327662, 65536, 2, 327663, 65536, 2, 327664, 65536, 2, 327665, 65536, 2, 327666, 65536, 2, 327667, 65536, 2, 327668, 65536, 2, 327669, 65536, 2, 327670, 65536, 2, 262133, 65536, 0, 262132, 65536, 0, 917615, 131072, 1, 917465, 196608, 1, 983001, 196608, 2, 786393, 196608, 1, 851929, 196608, 1, 655321, 196608, 1, 720857, 196608, 1, 524249, 196608, 1, 589785, 196608, 1, 458713, 196608, 1, 393177, 196608, 1, 327641, 196608, 1, 262105, 196608, 1, 196569, 196608, 1, 131033, 196608, 1, 65497, 196608, 0, -38, 327680, 6, -37, 327680, 6, -36, 327680, 6, -35, 327680, 6, -34, 327680, 6, -33, 327680, 6, -32, 327680, 6, -31, 327680, 6, -30, 327680, 6, -29, 327680, 6, -28, 327680, 6, -27, 327680, 6, -26, 327680, 6, -25, 327680, 6, -24, 327680, 6, -23, 327680, 6, -22, 327680, 6, -21, 327680, 6, -20, 327680, 6, -19, 327680, 6, -18, 327680, 6, -17, 327680, 6, -16, 327680, 6, -15, 327680, 6, -14, 327680, 6, -13, 327680, 6, -12, 327680, 6, -11, 327680, 6, -10, 327680, 6, -9, 327680, 6, -8, 327680, 6, 852085, 196609, 0, 917621, 196609, 1, 655477, 196609, 0, 721013, 196609, 1, 458869, 196609, 0, 524405, 196609, 1, 262261, 196609, 0, 327797, 196609, 1, 65653, 196609, 0, 131189, 196609, 1, 262135, 65536, 0, 262136, 65536, 0, 262137, 65536, 0, 262138, 65536, 0, 262139, 65536, 0, 262140, 65536, 0, 262141, 65536, 0, 262142, 65536, 0, 262143, 65536, 0, 196608, 65536, 0, 196609, 65536, 0, 196610, 65536, 0, 196611, 65536, 0, 196612, 65536, 0, 196613, 65536, 0, 196614, 65536, 0, 196615, 65536, 0, 196616, 65536, 0, 196617, 65536, 0, 196618, 65536, 0, 196619, 65536, 0, 196620, 65536, 0, 196621, 65536, 0, 196622, 65536, 0, 196623, 65536, 0, 196624, 65536, 0, 196625, 65536, 0, 196626, 65536, 0, 196627, 65536, 0, 196628, 65536, 0, 196629, 65536, 0, 196630, 65536, 0, 196631, 65536, 0, 196632, 65536, 0, 196633, 65536, 0, 196634, 65536, 0, 196635, 65536, 0, 196636, 65536, 0, 196637, 65536, 0, 196638, 65536, 0, 196639, 65536, 0, 196640, 65536, 0, 196641, 65536, 0, 196642, 65536, 0, 196643, 65536, 0, 196644, 65536, 0, 196645, 65536, 0, 196646, 65536, 0, 196651, 65536, 0, 196652, 65536, 0, 196653, 65536, 0, 196654, 65536, 0, 196655, 65536, 0, 196656, 65536, 0, 196658, 65536, 0, 196659, 65536, 0, 196660, 65536, 0, 196661, 65536, 0, 196662, 65536, 0, 196663, 65536, 0, 196664, 65536, 0, 196665, 65536, 0, 196666, 65536, 0, 196667, 65536, 0, 196668, 65536, 0, 196669, 65536, 0, 196670, 65536, 0, 196671, 65536, 0, 196672, 65536, 0, 196673, 65536, 0, 196674, 65536, 0, 196675, 65536, 0, 196676, 65536, 0, 196677, 65536, 0, 196678, 65536, 0, 196679, 65536, 0, 196680, 65536, 0, 196681, 65536, 0, 196682, 65536, 0, 196683, 65536, 0, 196684, 65536, 0, 196685, 65536, 0, 196686, 65536, 0, 196687, 65536, 0, 196688, 65536, 0, 196689, 65536, 0, 196690, 65536, 0, 196691, 65536, 0, 196692, 65536, 0, 196693, 65536, 0, 196694, 65536, 0, 196695, 65536, 0, 196696, 65536, 0, 196697, 65536, 0, 196698, 65536, 0, 196699, 65536, 0, 196700, 65536, 0, 196701, 65536, 0, 196702, 65536, 0, 196708, 65536, 0, 196709, 65536, 0, 196710, 65536, 0, 196711, 65536, 0, 196712, 65536, 0, 196713, 65536, 0, 196714, 65536, 0, 196715, 65536, 0, 196716, 65536, 0, 196717, 65536, 0, 196718, 65536, 0, 196719, 131072, 0, 262255, 131072, 1, 327791, 131072, 1, 393327, 131072, 1, 458863, 131072, 1, 524399, 131072, 1, 589935, 131072, 1, 589934, 0, 1, 524398, 0, 1, 458862, 0, 1, 393326, 0, 1, 327790, 0, 1, 262254, 65536, 1, 262253, 65536, 2, 262252, 65536, 2, 262251, 65536, 2, 262250, 65536, 2, 262249, 65536, 2, 262248, 65536, 2, 262247, 65536, 2, 262246, 65536, 2, 262245, 65536, 2, 262244, 65536, 2, 262239, 65536, 2, 262243, 65536, 2, 262242, 65536, 2, 262241, 65536, 2, 262240, 65536, 2, 262238, 65536, 2, 262237, 65536, 2, 262236, 65536, 2, 262235, 65536, 2, 262234, 65536, 2, 262233, 65536, 2, 262232, 65536, 2, 262231, 65536, 2, 262230, 65536, 2, 262229, 65536, 2, 262228, 65536, 2, 262227, 65536, 2, 262226, 65536, 2, 262225, 65536, 2, 262224, 65536, 2, 262223, 65536, 2, 262222, 65536, 2, 262221, 65536, 2, 262220, 65536, 2, 262219, 65536, 2, 262218, 65536, 2, 262217, 65536, 2, 262216, 65536, 2, 262215, 65536, 2, 262214, 65536, 2, 262213, 65536, 2, 262212, 65536, 2, 262211, 65536, 2, 262210, 65536, 2, 262209, 65536, 2, 262208, 65536, 2, 262207, 65536, 2, 262206, 65536, 2, 262205, 65536, 2, 262204, 65536, 2, 262203, 65536, 2, 262202, 65536, 2, 262201, 65536, 2, 262200, 65536, 2, 262199, 65536, 2, 262198, 65536, 2, 262197, 65536, 2, 262196, 65536, 2, 262195, 65536, 2, 262194, 65536, 2, 262193, 65536, 2, 262192, 65536, 2, 262191, 65536, 2, 262190, 65536, 2, 262189, 65536, 2, 262188, 65536, 2, 262187, 65536, 2, 262186, 65536, 2, 262185, 65536, 2, 262184, 65536, 2, 262183, 65536, 2, 262182, 65536, 2, 262181, 65536, 2, 262180, 65536, 2, 262179, 65536, 2, 262178, 65536, 2, 262177, 65536, 2, 262176, 65536, 2, 262175, 65536, 2, 262174, 65536, 2, 262173, 65536, 2, 262172, 65536, 2, 262171, 65536, 2, 262170, 65536, 2, 262169, 65536, 2, 262168, 65536, 2, 262167, 65536, 2, 262166, 65536, 2, 262165, 65536, 2, 262164, 65536, 2, 262163, 65536, 2, 262162, 65536, 2, 262161, 65536, 2, 327671, 65536, 2, 327672, 65536, 2, 327673, 65536, 2, 327674, 65536, 2, 327675, 65536, 2, 327676, 65536, 2, 327677, 65536, 2, 327678, 65536, 2, 327679, 65536, 2, 262144, 65536, 2, 262145, 65536, 2, 262146, 65536, 2, 262147, 65536, 2, 262148, 65536, 2, 262149, 65536, 2, 262150, 65536, 2, 262151, 65536, 2, 262152, 65536, 2, 262153, 65536, 2, 262154, 65536, 2, 262155, 65536, 2, 262156, 65536, 2, 262157, 65536, 2, 262158, 65536, 2, 262159, 65536, 2, 262160, 65536, 2, 196703, 65536, 0, 196704, 65536, 0, 196705, 65536, 0, 196706, 65536, 0, 196707, 65536, 0, 917617, 0, 3, 917618, 65536, 3, 917619, 131072, 3, -7, 327680, 6, -6, 327680, 6, -5, 327680, 6, -4, 327680, 6, -3, 327680, 6, -2, 327680, 6, -1, 327680, 6, -65536, 327680, 6, -65535, 327680, 6, -65534, 327680, 6, -65533, 327680, 6, -65532, 327680, 6, -65531, 327680, 6, -65530, 327680, 6, -65529, 327680, 6, -65528, 327680, 6, -65527, 327680, 6, -65526, 327680, 6, -65525, 327680, 6, -65524, 327680, 6, -65523, 327680, 6, -65522, 327680, 6, -65521, 327680, 6, -65520, 327680, 6, -65519, 327680, 6, -65518, 327680, 6, -65517, 327680, 6, -65516, 327680, 6, -65515, 327680, 6, -65514, 327680, 6, -65513, 327680, 6, -65512, 327680, 6, -65511, 327680, 6, -65510, 327680, 6, -65509, 327680, 6, -65508, 327680, 6, -65507, 327680, 6, -65506, 327680, 6, -65505, 327680, 6, -65504, 327680, 6, -65503, 327680, 6, -65502, 327680, 6, -65501, 327680, 6, -65500, 327680, 6, -65499, 327680, 6, -65498, 327680, 6, -65497, 327680, 6, -65496, 327680, 6, -65495, 327680, 6, -65494, 327680, 6, -65493, 327680, 6, -65492, 327680, 6, -65491, 327680, 6, -65490, 327680, 6, -65489, 327680, 6, -65488, 327680, 6, -65487, 327680, 6, -65486, 327680, 6, -65485, 327680, 6, -65484, 327680, 6, -65483, 327680, 6, -65482, 327680, 6, -65481, 327680, 6, -65480, 327680, 6, -65479, 327680, 6, -65478, 327680, 6, -65477, 327680, 6, -65476, 327680, 6, -65475, 327680, 6, -65474, 327680, 6, -65473, 327680, 6, -65472, 327680, 6, -65471, 327680, 6, -65470, 327680, 6, -65469, 327680, 6, -65468, 327680, 6, -65467, 327680, 6, -65466, 327680, 6, -65465, 327680, 6, -65464, 327680, 6, -65463, 327680, 6, -65462, 327680, 6, -65461, 327680, 6, -65460, 327680, 6, -65459, 327680, 6, -65458, 327680, 6, -65457, 327680, 6, -65456, 327680, 6, -65455, 327680, 6, -65454, 327680, 6, -65453, 327680, 6, -65452, 327680, 6, -65451, 327680, 6, -65450, 327680, 6, -65449, 327680, 6, -65448, 327680, 6, -65447, 327680, 6, -65446, 327680, 6, -65445, 327680, 6, -65444, 327680, 6, -65443, 327680, 6, -65442, 327680, 6, -65441, 327680, 6, -65440, 327680, 6, -65439, 327680, 6, -65438, 327680, 6, -65437, 327680, 6, -65436, 327680, 6, -65435, 327680, 6, -65434, 327680, 6, -65433, 327680, 6, -65432, 327680, 6, -65431, 327680, 6, -65430, 327680, 6, -65429, 327680, 6, -65428, 327680, 6, -65427, 327680, 6, -65426, 327680, 6, -65425, 327680, 6, -65424, 327680, 6, -65423, 327680, 6, -65422, 327680, 6, -65421, 327680, 6, -65420, 327680, 6, -65419, 327680, 5, 117, 262144, 5, 917614, 0, 1, 786439, 131073, 2, 786440, 131073, 2, 786441, 131073, 2, 917611, 65537, 1, 917612, 131073, 1, 655464, 131072, 3, 655463, 65536, 3, 655462, 65536, 3, 655461, 65536, 3, 655460, 0, 3, 786532, 196608, 2, 720996, 196608, 0, 786530, 131073, 2, 786531, 196609, 2, 786529, 131073, 2, 786528, 131073, 2, 786527, 131073, 2, 786526, 131073, 2, 786525, 131073, 2, 786524, 131073, 2, 786523, 131073, 2, 786522, 131073, 2, 786521, 131073, 2, 786520, 131073, 2, 786519, 131073, 2, 786518, 131073, 2, 786517, 131073, 2, 786516, 131073, 2, 786515, 131073, 2, 786514, 131073, 2, 786513, 131073, 2, 786512, 131073, 2, 786511, 131073, 2, 786510, 131073, 2, 786509, 131073, 2, 786508, 131073, 2, 786507, 131073, 2, 786506, 131073, 2, 786505, 131073, 2, 786504, 131073, 2, 786503, 131073, 2, 786502, 131073, 2, 786501, 131073, 2, 786500, 131073, 2, 786499, 131073, 2, 786498, 131073, 2, 786497, 131073, 2, 786496, 131073, 2, 786495, 131073, 2, 786494, 131073, 2, 786493, 131073, 2, 786492, 131073, 2, 786491, 131073, 2, 786490, 131073, 2, 786489, 131073, 2, 786488, 131073, 2, 786487, 131073, 2, 786486, 131073, 2, 786485, 131073, 2, 786484, 131073, 2, 786483, 131073, 2, 786482, 131073, 2, 786481, 131073, 2, 786480, 131073, 2, 786479, 131073, 2, 786478, 131073, 2, 786477, 131073, 2, 786476, 131073, 2, 786475, 131073, 2, 786474, 131073, 2, 786473, 131073, 2, 786472, 131073, 2, 786471, 131073, 2, 786470, 131073, 2, 786469, 131073, 2, 786468, 131073, 2, 786467, 131073, 2, 786466, 131073, 2, 786465, 131073, 2, 786464, 131073, 2, 786463, 131073, 2, 786462, 131073, 2, 786461, 131073, 2, 786460, 131073, 2, 786459, 131073, 2, 786458, 131073, 2, 786457, 131073, 2, 786456, 131073, 2, 786455, 131073, 2, 786454, 131073, 2, 786453, 131073, 2, 786452, 131073, 2, 786451, 131073, 2, 786450, 131073, 2, 786449, 131073, 2, 786448, 131073, 2, 786447, 131073, 2, 786446, 131073, 2, 786445, 131073, 2, 786444, 131073, 2, 786443, 131073, 2, 786442, 131073, 2, 786438, 131073, 2, 786437, 131073, 2, 786436, 131073, 2, 786435, 131073, 2, 786434, 131073, 2, 786433, 131073, 2, 786432, 131073, 2, 851967, 131073, 2, 851966, 131073, 2, 851965, 131073, 2, 851964, 131073, 2, 851963, 131073, 2, 851962, 131073, 2, 851961, 131073, 2, 851960, 131073, 2, 851959, 131073, 2, 851958, 131073, 2, 851957, 131073, 2, 851956, 131073, 2, 851955, 131073, 2, 851954, 131073, 2, 851953, 131073, 2, 851952, 131073, 2, 851951, 131073, 2, 851950, 131073, 2, 851949, 131073, 2, 851948, 131073, 2, 851947, 131073, 2, 851946, 131073, 2, 851945, 131073, 2, 851944, 131073, 2, 851943, 131073, 2, 851942, 131073, 2, 851941, 131073, 2, 851940, 131073, 2, 851939, 131073, 2, 851938, 131073, 2, 851937, 131073, 2, 851936, 65537, 2, 917471, 196609, 0, 983007, 196609, 1, 983144, 327680, 5, 1048680, 131072, 1, 983143, 327680, 5, 983142, 327680, 5, 983141, 65536, 0, 983140, 65536, 0, 983139, 65536, 0, 983138, 65536, 0, 983137, 65536, 0, 983136, 65536, 0, 983135, 65536, 0, 983134, 65536, 0, 983133, 65536, 0, 983132, 65536, 0, 983131, 65536, 0, 983130, 65536, 0, 983129, 65536, 0, 983128, 65536, 0, 983127, 65536, 0, 983126, 65536, 0, 983125, 65536, 0, 983124, 65536, 0, 983123, 65536, 0, 983122, 65536, 0, 983121, 65536, 0, 983120, 65536, 0, 983119, 65536, 0, 983118, 65536, 0, 983117, 65536, 0, 983116, 65536, 0, 983115, 65536, 0, 983114, 65536, 0, 983113, 65536, 0, 983112, 65536, 0, 983111, 65536, 0, 983110, 65536, 0, 983109, 65536, 0, 983108, 65536, 0, 983107, 65536, 0, 983106, 65536, 0, 983105, 65536, 0, 983104, 65536, 0, 983103, 65536, 0, 983102, 65536, 0, 983101, 65536, 0, 983100, 65536, 0, 983099, 65536, 0, 983098, 65536, 0, 983097, 65536, 0, 983096, 65536, 0, 983095, 65536, 0, 983094, 65536, 0, 983093, 65536, 0, 983092, 65536, 0, 983091, 65536, 0, 983090, 65536, 0, 983089, 65536, 0, 983088, 65536, 0, 983087, 65536, 0, 983086, 65536, 0, 983085, 65536, 0, 983084, 65536, 0, 983083, 65536, 0, 983082, 65536, 0, 983081, 65536, 0, 983080, 65536, 0, 983079, 65536, 0, 983078, 65536, 0, 983077, 65536, 0, 983076, 65536, 0, 983075, 65536, 0, 983074, 65536, 0, 983073, 65536, 0, 983072, 65536, 0, 983071, 65536, 0, 983070, 65536, 0, 983069, 65536, 0, 983068, 65536, 0, 983067, 65536, 0, 983066, 65536, 0, 983065, 65536, 0, 983064, 65536, 0, 983063, 65536, 0, 983062, 65536, 0, 983061, 65536, 0, 983060, 65536, 0, 983059, 65536, 0, 983058, 65536, 0, 983057, 65536, 0, 983056, 65536, 0, 983055, 65536, 0, 983054, 65536, 0, 983053, 65536, 0, 983052, 65536, 0, 983051, 65536, 0, 983050, 65536, 0, 983049, 65536, 0, 983048, 65536, 0, 983047, 65536, 0, 983046, 65536, 0, 983045, 65536, 0, 983044, 65536, 0, 983043, 65536, 0, 983042, 65536, 0, 983041, 65536, 0, 983040, 65536, 0, 1048575, 65536, 0, 1048574, 65536, 0, 1048573, 65536, 0, 1048572, 65536, 0, 1048571, 65536, 0, 1048570, 65536, 0, 1048569, 65536, 0, 1048568, 65536, 0, 1048567, 65536, 0, 1048566, 65536, 0, 1048565, 65536, 0, 1048564, 65536, 0, 1048563, 65536, 0, 1048562, 65536, 0, 1048561, 65536, 0, 1048560, 65536, 0, 1048559, 65536, 0, 1048558, 65536, 0, 1048557, 65536, 0, 1048556, 65536, 0, 1048555, 65536, 0, 1048554, 65536, 0, 1048553, 65536, 0, 1048552, 65536, 0, 1048551, 65536, 0, 1048550, 65536, 0, 1048549, 65536, 0, 1048548, 65536, 0, 1048547, 65536, 0, 1048546, 65536, 0, 1048545, 65536, 0, 1048544, 0, 0, 1114080, 0, 1, 983150, 0, 1, 1048686, 0, 1, 1114222, 0, 1, 1179758, 0, 1, 1245294, 0, 1, 1310830, 0, 1, 1376366, 0, 1, 983151, 131072, 1, 1048687, 131072, 1, 1114223, 131072, 1, 1179759, 131072, 1, 1245295, 131072, 1, 1310831, 131072, 1, 1376367, 131072, 1, 1114216, 131072, 1, 1179752, 131072, 1, 1245288, 131072, 1, 1310824, 131072, 1, 1376360, 131072, 1, 1048693, 196608, 1, 1114229, 196608, 1, 1179765, 196608, 1, 1245301, 196608, 1, 1310837, 196608, 1, 1376373, 196608, 1, 655470, 0, 1, 721006, 0, 1, 786542, 0, 1, 852078, 0, 1, 655471, 131072, 1, 721007, 131072, 1, 786543, 131072, 1, 852079, 131072, 1, 917606, 262144, 4, 917607, 327680, 4, 917608, 393216, 4, 655356, 65537, 1, 655357, 131073, 1, 720868, 65537, 1, 720869, 131073, 1, 655398, 65537, 1, 655399, 131073, 1, 655443, 65537, 1, 655444, 131073, 1)
 
-[node name="Area2D3" parent="." instance=ExtResource("12_jcubh")]
-texture_filter = 1
-position = Vector2(-1235, 689)
-scale = Vector2(22.385, 22.385)
+[node name="MOLINA" parent="." instance=ExtResource("13_vd8ht")]
+position = Vector2(139, 56)
+script = null
 
-[node name="Area2D4" parent="." instance=ExtResource("12_jcubh")]
-texture_filter = 1
-position = Vector2(3899, 864)
-scale = Vector2(22.385, 22.385)
+[node name="VALENTIN" parent="." instance=ExtResource("14_oshi4")]
+position = Vector2(145, 220)
+script = null
 
-[node name="VILLANOS" type="Node" parent="."]
+[node name="Node" type="Node" parent="."]
 
-[node name="VILLANO" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(3442, 511)
-scale = Vector2(0.2, 0.2)
+[node name="ColorRect" type="ColorRect" parent="Node"]
+offset_left = -66.0
+offset_top = -72.0
+offset_right = 1124.0
+offset_bottom = 621.0
+color = Color(0.133333, 0.133333, 0.133333, 0.92549)
 
-[node name="VILLANO2" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(-1105, 82)
-scale = Vector2(0.2, 0.2)
+[node name="Label" type="Label" parent="Node"]
+offset_top = 12.0
+offset_right = 960.0
+offset_bottom = 569.0
+text = "¡Bienvenidos al segundo nivel!
+¿Objetivo?
+Lograr escapar sin que ningún jugador muera en el intento.
 
-[node name="VILLANO3" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(-778, 80)
-scale = Vector2(0.2, 0.2)
+¿Cómo?
+Un jugador debe superar una serie de obstáculos para conseguir una máscara especial.
+El otro jugador, por un camino distinto, también debe superar varios obstáculos hasta alcanzar la salida final.
 
-[node name="VILLANO4" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(-626, 77)
-scale = Vector2(0.2, 0.2)
+¿Obstáculos?
+Trampas repartidas por el camino.
+Fantasmas que eliminan al jugador con solo tocarlo… al menos al principio.
 
-[node name="VILLANO5" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(-300, 79)
-scale = Vector2(0.2, 0.2)
+¿Ayudas?
+Al recoger la máscara, los fantasmas dejan de ser mortales: ahora pueden ser eliminados si se les toca.
 
-[node name="VILLANO6" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(473, 81)
-scale = Vector2(0.2, 0.2)
+Roles:
+MOLINA: Superar los obstáculos para alcanzar la salida.
+VALENTÍN: Superar los obstáculos para conseguir la máscara.
 
-[node name="VILLANO7" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(820, 82)
-scale = Vector2(0.2, 0.2)
+¡Haz clic para empezar!"
+horizontal_alignment = 1
 
-[node name="VILLANO8" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(1170, 81)
-scale = Vector2(0.2, 0.2)
+[node name="Button" type="Button" parent="Node"]
+offset_left = -45.0
+offset_top = -26.0
+offset_right = 1019.0
+offset_bottom = 591.0
+flat = true
 
-[node name="VILLANO9" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(1570, 79)
-scale = Vector2(0.2, 0.2)
-
-[node name="VILLANO10" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(1959, 82)
-scale = Vector2(0.2, 0.2)
-
-[node name="VILLANO11" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(2559, 84)
-scale = Vector2(0.2, 0.2)
-
-[node name="VILLANO12" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(3078, 82)
-scale = Vector2(0.2, 0.2)
-
-[node name="VILLANO13" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(3620, 82)
-scale = Vector2(0.2, 0.2)
-
-[node name="VILLANO14" parent="VILLANOS" instance=ExtResource("23_qr84v")]
-position = Vector2(3791, 84)
-scale = Vector2(0.2, 0.2)
+[connection signal="button_up" from="Node/Button" to="." method="_on_button_button_up"]

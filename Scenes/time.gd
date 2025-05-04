@@ -5,6 +5,7 @@ var touch = [1,2,3,4,5,6,7,8,9,10]
 
 
 func _ready():
+	Global.escena_anerior = "res://Scenes/1_PANTERA.tscn"
 	Global.in_light = false
 	$Timer.start()
 	$Timer2.start()
@@ -93,7 +94,7 @@ func _ready():
 
 func _process(delta):
 	if $ColorRect.size.x <= 0:
-		get_tree().change_scene_to_file("res://Scenes/interfaz.tscn")
+		get_tree().change_scene_to_file("res://Scenes/Derrota.tscn")
 	if len(touch) == 0:
 		get_tree().change_scene_to_file("res://Scenes/victoria.tscn")
 	
