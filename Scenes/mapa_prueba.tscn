@@ -596,17 +596,12 @@ text = "Per poder planejar clica la tecla d'espai mentre estàs volant."
 offset_left = 96.0
 offset_top = 144.0
 offset_right = 520.0
-offset_bottom = 288.0
-text = "Per poder moure't clica amb el botó esquerre del ratolí i de mentre mou el ratolí cap a la direcció del moviment que vols realitzar.
+offset_bottom = 360.0
+text = "Jugador 1:
+Para poder moverte arrastra el ratón hacia la dirección deseada veras como aparece una trayectoria en la pantalla, apunta i suelta el ratón.
 
-Apareixerà una línia predictora en forma de paràbola."
-
-[node name="Claus" type="RichTextLabel" parent="Tutorial"]
-offset_left = 576.0
-offset_top = 176.0
-offset_right = 776.0
-offset_bottom = 280.0
-text = "Agafa totes les claus, passant per sobre, per poder obrir la porta que és al final del nivell."
+Jugador 2:
+Usa las teclas W,A,S,D para moverte, solo puedes  overte mientras vuelas asegurate de estar en el aire constantemente."
 
 [node name="Raig" type="RichTextLabel" parent="Tutorial"]
 offset_left = 839.0
