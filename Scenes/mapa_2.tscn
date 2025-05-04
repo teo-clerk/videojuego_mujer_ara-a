@@ -557,7 +557,7 @@ scale = Vector2(2.035, 2.035)
 [node name="Area2D21" parent="Pinchos" instance=ExtResource("12_jcubh")]
 modulate = Color(0.11286, 0.466251, 0, 1)
 texture_filter = 1
-position = Vector2(-505, 324)
+position = Vector2(-512, 358)
 scale = Vector2(2.035, 2.035)
 
 [node name="Area2D22" parent="Pinchos" instance=ExtResource("12_jcubh")]

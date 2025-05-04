@@ -1603,7 +1603,7 @@ color = Color(0.133333, 0.133333, 0.133333, 0.92549)
 offset_top = 12.0
 offset_right = 960.0
 offset_bottom = 569.0
-text = "¡Bienvenidos al segundo nivel!
+text = "¡Bienvenidos al segundo nivel! - Estáis en la película \"Yo anduve con un zombie (1943)\"
 ¿Objetivo?
 Lograr escapar sin que ningún jugador muera en el intento.
 
@@ -1616,7 +1616,7 @@ Trampas repartidas por el camino.
 Fantasmas que eliminan al jugador con solo tocarlo… al menos al principio.
 
 ¿Ayudas?
-Al recoger la máscara, los fantasmas dejan de ser mortales: ahora pueden ser eliminados si se les toca.
+Al recoger la máscara, los fantasmas dejan de ser inmortales: ahora pueden ser eliminados si se les toca.
 
 Roles:
 MOLINA: Superar los obstáculos para alcanzar la salida.

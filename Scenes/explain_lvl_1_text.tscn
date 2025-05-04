@@ -830,8 +830,7 @@ color = Color(0.113725, 0.113725, 0.113725, 0.886275)
 layout_mode = 0
 offset_right = 960.0
 offset_bottom = 552.0
-text = "¡Bienvenidos al primer nivel!
-(Explicación breve de la peli)
+text = "¡Bienvenidos al primer nivel! - Estáis en la película \"La Mujer Pantera(1942)\"
 
 ¿Objetivo?
 Destruir todas las luces antes de que se acabe el tiempo (barra verde en la parte superior izquierda).
