@@ -1,9 +1,10 @@
-[gd_scene load_steps=15 format=3 uid="uid://cthuvcfjfix53"]
+[gd_scene load_steps=16 format=3 uid="uid://cthuvcfjfix53"]
 
 [ext_resource type="Texture2D" uid="uid://bfbsnux3naqaw" path="res://Resources/Base Color.png" id="1_8amn2"]
 [ext_resource type="PackedScene" uid="uid://bwppkoqx0wytc" path="res://Scenes/Player/jugador.tscn" id="5_e8d2k"]
 [ext_resource type="PackedScene" uid="uid://cfftk6knpdxad" path="res://Scenes/explain_lvl_1.tscn" id="6_hdbna"]
 [ext_resource type="FontFile" uid="uid://dfjgmo3enloc1" path="res://Fonts/8-bit-limit/8bitlimr.ttf" id="6_vi56d"]
+[ext_resource type="PackedScene" uid="uid://cfka7y32safjh" path="res://Scenes/lvl_2_explain.tscn" id="7_erysa"]
 [ext_resource type="Script" uid="uid://6805mh1acojm" path="res://Scripts/Nivell1.gd" id="8_dji4u"]
 [ext_resource type="Script" uid="uid://bw8344fv0rfan" path="res://Scripts/Nivell2.gd" id="9_4suh0"]
 [ext_resource type="Script" uid="uid://bw6l75lps8wc8" path="res://Scripts/TornarAlMenú.gd" id="11_mwhfi"]
@@ -85,6 +86,7 @@ theme_override_fonts/font = ExtResource("6_vi56d")
 theme_override_font_sizes/font_size = 35
 text = "NIVEL 2"
 script = ExtResource("9_4suh0")
+escena = ExtResource("7_erysa")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Butons/HBoxContainer/Nivell2"]
 
