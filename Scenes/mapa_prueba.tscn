@@ -589,8 +589,9 @@ scale = Vector2(0.19, 0.19)
 offset_left = 1281.0
 offset_top = 197.0
 offset_right = 1457.0
-offset_bottom = 301.0
-text = "Per poder planejar clica la tecla d'espai mentre estàs volant."
+offset_bottom = 320.0
+text = "Jugador 1:
+Para poder planear pulsa la tecla espacio mientras estés en el aire."
 
 [node name="Moviment" type="RichTextLabel" parent="Tutorial"]
 offset_left = 96.0
@@ -608,8 +609,7 @@ offset_left = 839.0
 offset_top = 166.0
 offset_right = 1059.0
 offset_bottom = 289.0
-text = "Espera que el raig es desactivi per poder passar.
-El raig s'activa i desactiva automàticament després d'un temps."
+text = "Esperad a que el rayo se desactive para poder pasar, però vigilad porque se volverà a encender rapidamente."
 
 [node name="TileMap" type="TileMap" parent="."]
 scale = Vector2(1.5, 1.5)
